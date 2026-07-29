@@ -1,0 +1,17 @@
+menu "Kai Car Motor Configuration"
+
+    config KAICAR_LEFT_MOTOR_REVERSED
+        bool "Left motor wiring is reversed"
+        default y
+        help
+            Swap forward/reverse pins for the left motor.
+            Enable if the left motor spins backward when commanded forward.
+
+    config KAICAR_RIGHT_MOTOR_REVERSED
+        bool "Right motor wiring is reversed"
+        default y
+        help
+            Swap forward/reverse pins for the right motor.
+            Enable if the right motor spins backward when commanded forward.
+
+endmenu

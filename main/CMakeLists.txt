@@ -1,0 +1,21 @@
+idf_component_register(
+    SRCS
+        "Kai_car.c"
+        "Tasks/initialize.cpp"
+        "Tasks/drive.cpp"
+        "Tasks/command_translation.cpp"
+        "Display/display.cpp"
+        "Audio/audio.cpp"
+        "Ble/ble.cpp"
+    INCLUDE_DIRS
+        "."
+        "Tasks"
+        "Display"
+        "Audio"
+        "Ble"
+    REQUIRES
+        bt
+        nvs_flash
+        esp_event
+        driver
+)

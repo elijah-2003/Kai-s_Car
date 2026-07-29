@@ -1,0 +1,88 @@
+Command: /Users/elijahjohnson/.espressif/python_env/idf5.5_py3.14_env/bin/python /Users/elijahjohnson/esp/esp-idf/tools/idf_monitor.py -p /dev/cu.usbserial-0001 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 /Users/elijahjohnson/kai_car/build/Kai_car.elf /Users/elijahjohnson/kai_car/build/bootloader/bootloader.elf -m '/Users/elijahjohnson/.espressif/python_env/idf5.5_py3.14_env/bin/python' '/Users/elijahjohnson/esp/esp-idf/tools/idf.py'
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6384
+load:0x40078000,len:15916
+load:0x40080400,len:3920
+entry 0x40080644
+[0;32mI (27) boot: ESP-IDF v5.5.2 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Jul 23 2026 09:00:34[0m
+[0;32mI (28) boot: Multicore bootloader[0m
+[0;32mI (29) boot: chip revision: v3.1[0m
+[0;32mI (32) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (35) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (39) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (42) boot: Enabling RNG early entropy source...[0m
+[0;32mI (47) boot: Partition Table:[0m
+[0;32mI (49) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (56) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (62) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (69) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (75) boot: End of partition table[0m
+[0;32mI (79) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0caf4h ( 51956) map[0m
+[0;32mI (104) esp_image: segment 1: paddr=0001cb1c vaddr=3ffbdb60 size=034fch ( 13564) load[0m
+[0;32mI (109) esp_image: segment 2: paddr=00020020 vaddr=400d0020 size=18d18h (101656) map[0m
+[0;32mI (144) esp_image: segment 3: paddr=00038d40 vaddr=3ffc105c size=00278h (   632) load[0m
+[0;32mI (145) esp_image: segment 4: paddr=00038fc0 vaddr=40080000 size=0f1d8h ( 61912) load[0m
+[0;32mI (172) esp_image: segment 5: paddr=000481a0 vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (180) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (180) boot: Disabling RNG early entropy source...[0m
+[0;32mI (192) cpu_start: Multicore app[0m
+[0;32mI (201) cpu_start: GPIO 3 and 1 are used as console UART I/O pins[0m
+[0;32mI (201) cpu_start: Pro cpu start user code[0m
+[0;32mI (201) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (203) app_init: Application information:[0m
+[0;32mI (207) app_init: Project name:     Kai_car[0m
+[0;32mI (211) app_init: App version:      1[0m
+[0;32mI (214) app_init: Compile time:     Jul 27 2026 23:00:22[0m
+[0;32mI (219) app_init: ELF file SHA256:  d84393d5d...[0m
+[0;32mI (223) app_init: ESP-IDF:          v5.5.2[0m
+[0;32mI (227) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (231) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (235) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (239) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (245) heap_init: At 3FFAE6E0 len 0000F480 (61 KiB): DRAM[0m
+[0;32mI (250) heap_init: At 3FFC2040 len 0001DFC0 (119 KiB): DRAM[0m
+[0;32mI (255) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (261) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (266) heap_init: At 4008F1D8 len 00010E28 (67 KiB): IRAM[0m
+[0;32mI (273) spi_flash: detected chip: generic[0m
+[0;32mI (275) spi_flash: flash io: dio[0m
+[0;33mW (278) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (290) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (301) coexist: coex firmware version: 7260f71[0m
+[0;32mI (305) main_task: Started on CPU0[0m
+[0;32mI (315) main_task: Calling app_main()[0m
+
+========================================
+   KAI CAR — FULL UART CONTROL
+========================================
+  LAST RESET: POWER-ON (normal)
+  w/a/d/x = drive    s = stop
+  0-3 = single pin   +/- = speed
+  h=honk b=beep m=hum t=tick
+  l=lowbatt n=connected p=startup
+  q=silence
+  f+1..7 = face (happy/love/conn/
+           drive/sleep/sad/battery)
+========================================
+
+OLED display initialized at 0x3C.
+Configured four PWM motor outputs for differential steering.
+Audio initialized on GPIO 23.
+[0;32mI (475) main_task: Returned from app_main()[0m
+PIN TEST: LEFT_FWD (GPIO 27) at 80% duty=818/1023
+[pin 0  speed 80%]
+PIN TEST: LEFT_FWD (GPIO 27) at 80% duty=818/1023
+PIN TEST: LEFT_FWD (GPIO 27) at 80% duty=818/1023
+PIN TEST: LEFT_FWD (GPIO 27) at 80% duty=818/1023
+PIN TEST: LEFT_REV (GPIO 26) at 80% duty=818/1023
+[pin 1  speed 80%]
+PIN TEST: LEFT_REV (GPIO 26) at 80% duty=818/1023
+PIN TEST: LEFT_REV (GPIO 26) at 80% duty=818/1023
+PIN TEST: LEFT_REV (GPIO 26) at 80% duty=818/1023
+PIN TEST: LEFT_REV (GPIO 26) at 80% duty=818/1023

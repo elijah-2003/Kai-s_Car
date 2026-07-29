@@ -1,0 +1,76 @@
+Command: /Users/elijahjohnson/.espressif/python_env/idf5.5_py3.14_env/bin/python /Users/elijahjohnson/esp/esp-idf/tools/idf_monitor.py -p /dev/cu.usbserial-0001 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 /Users/elijahjohnson/kai_car/build/Kai_car.elf /Users/elijahjohnson/kai_car/build/bootloader/bootloader.elf -m '/Users/elijahjohnson/.espressif/python_env/idf5.5_py3.14_env/bin/python' '/Users/elijahjohnson/esp/esp-idf/tools/idf.py'
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6384
+load:0x40078000,len:15916
+load:0x40080400,len:3920
+entry 0x40080644
+[0;32mI (27) boot: ESP-IDF v5.5.2 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Jul 23 2026 09:00:34[0m
+[0;32mI (28) boot: Multicore bootloader[0m
+[0;32mI (29) boot: chip revision: v3.1[0m
+[0;32mI (32) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (35) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (39) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (42) boot: Enabling RNG early entropy source...[0m
+[0;32mI (47) boot: Partition Table:[0m
+[0;32mI (49) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (56) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (62) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (69) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (75) boot: End of partition table[0m
+[0;32mI (79) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0b6d8h ( 46808) map[0m
+[0;32mI (102) esp_image: segment 1: paddr=0001b700 vaddr=3ffbdb60 size=0371ch ( 14108) load[0m
+[0;32mI (108) esp_image: segment 2: paddr=0001ee24 vaddr=40080000 size=011f4h (  4596) load[0m
+[0;32mI (110) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=150b0h ( 86192) map[0m
+[0;32mI (143) esp_image: segment 4: paddr=000350d8 vaddr=400811f4 size=0dbdch ( 56284) load[0m
+[0;32mI (165) esp_image: segment 5: paddr=00042cbc vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (173) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (173) boot: Disabling RNG early entropy source...[0m
+[0;32mI (186) cpu_start: Multicore app[0m
+[0;32mI (194) cpu_start: GPIO 3 and 1 are used as console UART I/O pins[0m
+[0;32mI (194) cpu_start: Pro cpu start user code[0m
+[0;32mI (194) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (196) app_init: Application information:[0m
+[0;32mI (200) app_init: Project name:     Kai_car[0m
+[0;32mI (204) app_init: App version:      1[0m
+[0;32mI (207) app_init: Compile time:     Jul 27 2026 23:00:22[0m
+[0;32mI (212) app_init: ELF file SHA256:  9e7655712...[0m
+[0;32mI (216) app_init: ESP-IDF:          v5.5.2[0m
+[0;32mI (220) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (224) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (228) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (232) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (238) heap_init: At 3FFAE6E0 len 0000F480 (61 KiB): DRAM[0m
+[0;32mI (243) heap_init: At 3FFC1B60 len 0001E4A0 (121 KiB): DRAM[0m
+[0;32mI (248) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (254) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (259) heap_init: At 4008EDD0 len 00011230 (68 KiB): IRAM[0m
+[0;32mI (266) spi_flash: detected chip: generic[0m
+[0;32mI (268) spi_flash: flash io: dio[0m
+[0;33mW (271) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (283) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (294) coexist: coex firmware version: 7260f71[0m
+[0;32mI (298) main_task: Started on CPU0[0m
+[0;32mI (308) main_task: Calling app_main()[0m
+
+========================================
+   I2C BUS SCANNER
+   SDA = GPIO 21   SCL = GPIO 22
+========================================
+
+     0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F
+00:    -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+10: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+20: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+30: -- -- -- -- -- -- -- -- -- -- -- -- 3C -- -- -- 
+40: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+50: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+70: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+Found 1 device(s).

@@ -1,0 +1,2 @@
+source /Users/elijahjohnson/kai_car/build/bootloader/gdbinit/symbols
+source /Users/elijahjohnson/kai_car/build/bootloader/gdbinit/connect

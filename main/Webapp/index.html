@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#0b0b0f">
+<title>Kai Car</title>
+<style>
+  :root { --bg:#0b0b0f; --panel:#16171d; --edge:#2a2c36; --accent:#4ea1ff; --danger:#ff4d5a; --text:#e8ebf1; }
+  * { box-sizing:border-box; -webkit-tap-highlight-color:transparent; -webkit-user-select:none; user-select:none; touch-action:manipulation; }
+  html, body { margin:0; padding:0; height:100%; background:var(--bg); color:var(--text); font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; overscroll-behavior:none; }
+  body { display:flex; flex-direction:column; padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left); }
+  header { display:flex; justify-content:space-between; align-items:center; padding:14px 18px; font-size:14px; color:#9aa1af; }
+  header .status { display:flex; align-items:center; gap:8px; }
+  header .dot { width:8px; height:8px; border-radius:50%; background:#4c4f5c; transition:background .2s; }
+  header .dot.ok { background:#3ddc84; }
+  header .dot.err { background:var(--danger); }
+  main { flex:1; display:grid; grid-template-columns:1fr 1fr 1fr; grid-template-rows:1fr 1fr 1fr; gap:14px; padding:14px; max-width:520px; width:100%; margin:0 auto; }
+  .btn { background:var(--panel); border:1px solid var(--edge); border-radius:22px; display:flex; align-items:center; justify-content:center; font-size:34px; font-weight:600; color:var(--text); transition:transform .05s ease, background .1s ease; }
+  .btn:active, .btn.active { background:#232634; transform:scale(0.97); border-color:var(--accent); }
+  .btn.stop { background:#1b0f12; border-color:#3a1b22; color:var(--danger); font-size:22px; }
+  .btn.stop:active, .btn.stop.active { background:#2b1218; }
+  #up    { grid-column:2; grid-row:1; }
+  #left  { grid-column:1; grid-row:2; }
+  #stop  { grid-column:2; grid-row:2; }
+  #right { grid-column:3; grid-row:2; }
+  #down  { grid-column:2; grid-row:3; }
+</style>
+</head>
+<body>
+  <header>
+    <div>Kai Car</div>
+    <div class="status"><span id="dot" class="dot"></span><span id="msg">idle</span></div>
+  </header>
+
+  <main>
+    <button class="btn" id="up"    data-cmd="forward">&#9650;</button>
+    <button class="btn" id="left"  data-cmd="left">&#9664;</button>
+    <button class="btn stop" id="stop" data-cmd="stop">STOP</button>
+    <button class="btn" id="right" data-cmd="right">&#9654;</button>
+    <button class="btn" id="down"  data-cmd="reverse">&#9660;</button>
+  </main>
+
+<script>
+  const API_BASE = 'http://192.168.4.1'; // ESP32 AP address; blank when webapp is served from the ESP32 itself
+  const dot = document.getElementById('dot');
+  const msg = document.getElementById('msg');
+
+  async function send(cmd) {
+    try {
+      const res = await fetch(`${API_BASE}/drive?cmd=${encodeURIComponent(cmd)}`, { method:'GET', cache:'no-store' });
+      if (!res.ok) throw new Error(res.status);
+      dot.className = 'dot ok';
+      msg.textContent = cmd;
+    } catch (e) {
+      dot.className = 'dot err';
+      msg.textContent = 'link error';
+    }
+  }
+
+  // Momentary control: press-and-hold to drive, release to stop.
+  function bind(el) {
+    const cmd = el.dataset.cmd;
+    const isStop = cmd === 'stop';
+    const down = (e) => { e.preventDefault(); el.classList.add('active'); send(cmd); };
+    const up   = (e) => { e.preventDefault(); el.classList.remove('active'); if (!isStop) send('stop'); };
+    el.addEventListener('pointerdown', down);
+    el.addEventListener('pointerup', up);
+    el.addEventListener('pointercancel', up);
+    el.addEventListener('pointerleave', up);
+    el.addEventListener('contextmenu', (e) => e.preventDefault());
+  }
+  document.querySelectorAll('.btn').forEach(bind);
+
+  // Failsafe: if the tab is hidden, send stop.
+  document.addEventListener('visibilitychange', () => { if (document.hidden) send('stop'); });
+</script>
+</body>
+</html>

@@ -1,0 +1,435 @@
+Command: /Users/elijahjohnson/.espressif/python_env/idf5.5_py3.14_env/bin/python /Users/elijahjohnson/esp/esp-idf/tools/idf_monitor.py -p /dev/cu.usbserial-0001 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 /Users/elijahjohnson/kai_car/build/Kai_car.elf /Users/elijahjohnson/kai_car/build/bootloader/bootloader.elf -m '/Users/elijahjohnson/.espressif/python_env/idf5.5_py3.14_env/bin/python' '/Users/elijahjohnson/esp/esp-idf/tools/idf.py'
+[0;32mI (395) esp_image: segment 5: paddr=000e8164 vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (407) boot: Loaded app from partition at offset 0x1�ets Jul 29 2019 12:21:46[0m
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6384
+load:0x40078000,len:15916
+load:0x40080400,len:3920
+entry 0x40080644
+[0;32mI (27) boot: ESP-IDF v5.5.2 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Jul 22 2026 00:10:56[0m
+[0;32mI (28) boot: Multicore bootloader[0m
+[0;32mI (29) boot: chip revision: v3.1[0m
+[0;32mI (32) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (35) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (39) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (42) boot: Enabling RNG early entropy source...[0m
+[0;32mI (47) boot: Partition Table:[0m
+[0;32mI (49) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (56) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (62) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (69) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (75) boot: End of partition table[0m
+[0;32mI (79) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=20584h (132484) map[0m
+[0;32mI (131) esp_image: segment 1: paddr=000305ac vaddr=3ffb0000 size=03f7ch ( 16252) load[0m
+[0;32mI (138) esp_image: segment 2: paddr=00034530 vaddr=40080000 size=0bae8h ( 47848) load[0m
+[0;32mI (157) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=9b874h (637044) map[0m
+[0;32mI (374) esp_image: segment 4: paddr=000db89c vaddr=4008bae8 size=0c8c0h ( 51392) load[0m
+[0;32mI (395) esp_image: segment 5: paddr=000e8164 vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (407) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (407) boot: Disabling RNG early entropy source...[0m
+[0;32mI (417) cpu_start: Multicore app[0m
+[0;32mI (426) cpu_start: GPIO 3 and 1 are used as console UART I/O pins[0m
+[0;32mI (426) cpu_start: Pro cpu start user code[0m
+[0;32mI (426) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (428) app_init: Application information:[0m
+[0;32mI (431) app_init: Project name:     Kai_car[0m
+[0;32mI (435) app_init: App version:      1[0m
+[0;32mI (439) app_init: Compile time:     Jul 22 2026 00:07:47[0m
+[0;32mI (444) app_init: ELF file SHA256:  7be85affb...[0m
+[0;32mI (448) app_init: ESP-IDF:          v5.5.2[0m
+[0;32mI (452) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (456) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (460) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (464) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (470) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (475) heap_init: At 3FFB8400 len 00027C00 (159 KiB): DRAM[0m
+[0;32mI (480) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (486) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (491) heap_init: At 400983A8 len 00007C58 (31 KiB): IRAM[0m
+[0;32mI (498) spi_flash: detected chip: generic[0m
+[0;32mI (500) spi_flash: flash io: dio[0m
+[0;33mW (503) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (516) main_task: Started on CPU0[0m
+[0;32mI (526) main_task: Calling app_main()[0m
+Kai Car booting...
+Initializing Kai Car subsystems...
+Initializing I2C display...
+[0;32mI (546) wifi:wifi driver task: 3ffc0394, prio:23, stack:6656, core=0[0m
+[0;32mI (546) wifi:wifi firmware version: ee91c8c[0m
+[0;32mI (546) wifi:wifi certification version: v7.0[0m
+[0;32mI (546) wifi:config NVS flash: enabled[0m
+[0;32mI (546) wifi:config nano formatting: disabled[0m
+[0;32mI (556) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (556) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (566) wifi:Init management short buffer num: 32[0m
+[0;32mI (566) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (576) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (576) wifi:Init static rx buffer num: 10[0m
+[0;32mI (576) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (586) wifi_init: rx ba win: 6[0m
+[0;32mI (586) wifi_init: accept mbox: 6[0m
+[0;32mI (586) wifi_init: tcpip mbox: 32[0m
+[0;32mI (596) wifi_init: udp mbox: 6[0m
+[0;32mI (596) wifi_init: tcp mbox: 6[0m
+[0;32mI (596) wifi_init: tcp tx win: 5760[0m
+[0;32mI (606) wifi_init: tcp rx win: 5760[0m
+[0;32mI (606) wifi_init: tcp mss: 1440[0m
+[0;32mI (606) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (616) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (866) phy_init: phy_version 4863,a3a4459,Oct 28 2025,14:30:06[0m
+[0;32mI (946) wifi:mode : softAP (8c:94:df:4d:03:75)[0m
+[0;32mI (956) wifi:Total power save buffer number: 16[0m
+[0;32mI (956) wifi:Init max length of beacon: 752/752[0m
+[0;32mI (956) wifi:Init max length of beacon: 752/752[0m
+Wi-Fi AP started: SSID=KaiCar-AP password=KaiCar123
+[0;32mI (956) esp_netif_lwip: DHCP server started on interface WIFI_AP_DEF with IP: 192.168.4.1[0m
+Preparing HTTPS control server layer...
+[0;32mI (976) esp_https_server: Starting server[0m
+[0;32mI (976) esp_https_server: Server listening on port 443[0m
+HTTPS control server ready on https://192.168.4.1/
+Preparing audio output for startup tones...
+Configured four PWM motor outputs for differential steering.
+Display greeting for brother
+Display battery percentage: 100%
+Publishing vehicle status: boot complete
+[0;32mI (1006) main_task: Returned from app_main()[0m
+[0;32mI (84866) wifi:new:<1,0>, old:<1,1>, ap:<1,0>, sta:<255,255>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (84876) wifi:station: 08:c7:b5:46:01:60 join, AID=1, bgn, 20[0m
+[0;32mI (86396) esp_netif_lwip: DHCP server assigned IP to a client, IP is: 192.168.4.2[0m
+[0;32mI (88896) wifi:[ADDBA]RX DELBA, reason:1, delete tid:0, initiator:0(recipient)[0m
+[0;32mI (89316) wifi:<ba-add>idx:2 (ifx:1, 08:c7:b5:46:01:60), tid:0, ssn:8, winSize:64[0m
+[0;32mI (119616) wifi:[ADDBA]RX DELBA, reason:1, delete tid:0, initiator:0(recipient)[0m
+[0;32mI (125696) wifi:[ADDBA]RX DELBA, reason:1, delete tid:0, initiator:0(recipient)[0m
+[0;32mI (127476) esp_https_server: performing session handshake[0m
+[1;31mE (128676) esp-tls-mbedtls: mbedtls_ssl_handshake returned -0x7780[0m
+[1;31mE (128676) esp_https_server: esp_tls_create_server_session failed, 0x7780[0m
+[1;31mE (128676) httpd: httpd_accept_conn: session creation failed[0m
+[0;33mW (128686) httpd: httpd_server: error accepting new connection[0m
+[0;32mI (128686) esp_https_server: performing session handshake[0m
+[0;32mI (130706) wifi:[ADDBA]RX DELBA, reason:1, delete tid:0, initiator:0(recipient)[0m
+[0;32mI (131676) wifi:[ADDBA]RX DELBA, reason:1, delete tid:0, initiator:0(recipient)[0m
+[1;31mE (132426) esp-tls-mbedtls: mbedtls_ssl_handshake returned -0x7780[0m
+[1;31mE (132426) esp_https_server: esp_tls_create_server_session failed, 0x7780[0m
+[1;31mE (132436) httpd: httpd_accept_conn: session creation failed[0m
+[0;33mW (132436) httpd: httpd_server: error accepting new connection[0m
+[0;32mI (142496) esp_https_server: performing session handshake[0m
+[0;32mI (144676) wifi:[ADDBA]RX DELBA, reason:1, delete tid:0, initiator:0(recipient)[0m
+[0;32mI (147026) wifi:[ADDBA]RX DELBA, reason:1, delete tid:0, initiator:0(recipient)[0m
+[0;32mI (149566) wifi:[ADDBA]RX DELBA, reason:1, delete tid:0, initiator:0(recipient)[0m
+[0;33mW (150746) httpd_uri: httpd_uri: URI '/favicon.ico' not found[0m
+[0;33mW (150746) httpd_txrx: httpd_resp_send_err: 404 Not Found - Nothing matches the given URI[0m
+[0;32mI (155176) wifi:[ADDBA]RX DELBA, reason:1, delete tid:0, initiator:0(recipient)[0m
+[0;32mI (157246) esp_https_server: performing session handshake[0m
+[0;32mI (159136) wifi:[ADDBA]RX DELBA, reason:1, delete tid:0, initiator:0(recipient)[0m
+Drive command: FORWARD at 80% speed using PWM duty 818/1023.
+[0;32mI (160436) esp_https_server: performing session handshake[0m
+Deadman: no command for 560ms, stopping motors.
+Drive command: STOP at 0% speed using PWM duty 0/1023.
+Drive command: FORWARD at 80% speed using PWM duty 818/1023.
+[0;32mI (162076) esp_https_server: performing session handshake[0m
+Deadman: no command for 520ms, stopping motors.
+Drive command: STOP at 0% speed using PWM duty 0/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+[0;32mI (163556) esp_https_server: performing session handshake[0m
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: FORWARD at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+[0;32mI (165216) esp_https_server: performing session handshake[0m
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: FORWARD at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+[0;32mI (167186) esp_https_server: performing session handshake[0m
+Drive command: FORWARD at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+[0;32mI (168956) esp_https_server: performing session handshake[0m
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+[0;32mI (170486) esp_https_server: performing session handshake[0m
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: TURN_RIGHT at 80% speed using PWM duty 818/1023.
+[0;32mI (172336) esp_https_server: performing session handshake[0m
+Deadman: no command for 570ms, stopping motors.
+Drive command: STOP at 0% speed using PWM duty 0/1023.
+Drive command: REVERSE at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: FORWARD at 80% speed using PWM duty 818/1023.
+Deadman: no command for 520ms, stopping motors.
+Drive command: STOP at 0% speed using PWM duty 0/1023.
+Drive command: FORWARD at 80% speed using PWM duty 818/1023.
+Deadman: no command for 590ms, stopping motors.
+Drive command: STOP at 0% speed using PWM duty 0/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: REVERSE at 80% speed using PWM duty 818/1023.
+Deadman: no command for 560ms, stopping motors.
+Drive command: STOP at 0% speed using PWM duty 0/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: FORWARD at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: REVERSE at 80% speed using PWM duty 818/1023.
+Deadman: no command for 530ms, stopping motors.
+Drive command: STOP at 0% speed using PWM duty 0/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: FORWARD at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: REVERSE at 80% speed using PWM duty 818/1023.
+Deadman: no command for 510ms, stopping motors.
+Drive command: STOP at 0% speed using PWM duty 0/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: FORWARD at 80% speed using PWM duty 818/1023.
+Deadman: no command for 570ms, stopping motors.
+Drive command: STOP at 0% speed using PWM duty 0/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: REVERSE at 80% speed using PWM duty 818/1023.
+Deadman: no command for 520ms, stopping motors.
+Drive command: STOP at 0% speed using PWM duty 0/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: FORWARD at 80% speed using PWM duty 818/1023.
+Deadman: no command for 580ms, stopping motors.
+Drive command: STOP at 0% speed using PWM duty 0/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: REVERSE at 80% speed using PWM duty 818/1023.
+Deadman: no command for 520ms, stopping motors.
+Drive command: STOP at 0% speed using PWM duty 0/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: FORWARD at 80% speed using PWM duty 818/1023.
+Deadman: no command for 550ms, stopping motors.
+Drive command: STOP at 0% speed using PWM duty 0/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: REVERSE at 80% speed using PWM duty 818/1023.
+Deadman: no command for 550ms, stopping motors.
+Drive command: STOP at 0% speed using PWM duty 0/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: TURN_LEFT at 80% speed using PWM duty 818/1023.
+Deadman: no command for 530ms, stopping motors.
+Drive command: STOP at 0% speed using PWM duty 0/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+[0;32mI (202226) wifi:[ADDBA]RX DELBA, reason:1, delete tid:0, initiator:0(recipient)[0m
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+[0;32mI (202286) esp_https_server: performing session handshake[0m
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: TURN_LEFT at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+[0;32mI (203936) esp_https_server: performing session handshake[0m
+[0;32mI (208476) wifi:[ADDBA]RX DELBA, reason:1, delete tid:0, initiator:0(recipient)[0m
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: REVERSE at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+[0;32mI (209196) esp_https_server: performing session handshake[0m
+Drive command: TURN_RIGHT at 80% speed using PWM duty 818/1023.
+Drive command: FORWARD at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+[0;32mI (210976) esp_https_server: performing session handshake[0m
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: FORWARD at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+[0;32mI (213166) esp_https_server: performing session handshake[0m
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+[0;32mI (214646) esp_https_server: performing session handshake[0m
+[0;32mI (218826) wifi:[ADDBA]RX DELBA, reason:1, delete tid:0, initiator:0(recipient)[0m
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: REVERSE at 80% speed using PWM duty 818/1023.
+[0;32mI (219756) esp_https_server: performing session handshake[0m
+Deadman: no command for 550ms, stopping motors.
+Drive command: STOP at 0% speed using PWM duty 0/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: TURN_RIGHT at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+[0;32mI (221376) esp_https_server: performing session handshake[0m
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+[0;32mI (223356) esp_https_server: performing session handshake[0m
+[0;32mI (224886) wifi:[ADDBA]RX DELBA, reason:1, delete tid:0, initiator:0(recipient)[0m
+[0;32mI (226706) wifi:[ADDBA]RX DELBA, reason:1, delete tid:0, initiator:0(recipient)[0m
+Drive command: REVERSE at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+[0;32mI (228036) esp_https_server: performing session handshake[0m
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: FORWARD at 80% speed using PWM duty 818/1023.
+[0;32mI (229986) esp_https_server: performing session handshake[0m
+Deadman: no command for 520ms, stopping motors.
+Drive command: STOP at 0% speed using PWM duty 0/1023.
+[0;32mI (235996) wifi:[ADDBA]RX DELBA, reason:1, delete tid:0, initiator:0(recipient)[0m
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+[0;32mI (237776) esp_https_server: performing session handshake[0m
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: REVERSE at 80% speed using PWM duty 818/1023.
+[0;32mI (239526) esp_https_server: performing session handshake[0m
+Deadman: no command for 580ms, stopping motors.
+Drive command: STOP at 0% speed using PWM duty 0/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: REVERSE at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+[0;32mI (241146) esp_https_server: performing session handshake[0m
+Drive command: REVERSE at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+[0;32mI (242816) esp_https_server: performing session handshake[0m
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: TURN_LEFT at 80% speed using PWM duty 818/1023.
+[0;32mI (244416) esp_https_server: performing session handshake[0m
+Deadman: no command for 590ms, stopping motors.
+Drive command: STOP at 0% speed using PWM duty 0/1023.
+[0;32mI (247516) wifi:[ADDBA]RX DELBA, reason:1, delete tid:0, initiator:0(recipient)[0m
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: TURN_LEFT at 80% speed using PWM duty 818/1023.
+[0;32mI (247856) esp_https_server: performing session handshake[0m
+Deadman: no command for 550ms, stopping motors.
+Drive command: STOP at 0% speed using PWM duty 0/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: TURN_LEFT at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+[0;32mI (249436) esp_https_server: performing session handshake[0m
+[0;32mI (250346) wifi:[ADDBA]RX DELBA, reason:1, delete tid:0, initiator:0(recipient)[0m
+Drive command: FORWARD at 80% speed using PWM duty 818/1023.
+Drive command: TURN_LEFT at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+[0;32mI (253076) esp_https_server: performing session handshake[0m
+[0;32mI (254996) wifi:[ADDBA]RX DELBA, reason:1, delete tid:0, initiator:0(recipient)[0m
+Drive command: REVERSE at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+[0;32mI (255336) esp_https_server: performing session handshake[0m
+[0;32mI (257536) wifi:[ADDBA]RX DELBA, reason:1, delete tid:0, initiator:0(recipient)[0m
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: FORWARD at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+[0;32mI (257976) esp_https_server: performing session handshake[0m
+Drive command: REVERSE at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+[0;32mI (259786) esp_https_server: performing session handshake[0m
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: REVERSE at 80% speed using PWM duty 818/1023.
+[0;32mI (262116) esp_https_server: performing session handshake[0m
+Deadman: no command for 590ms, stopping motors.
+Drive command: STOP at 0% speed using PWM duty 0/1023.
+Drive command: FORWARD at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: FORWARD at 80% speed using PWM duty 818/1023.
+[0;32mI (264066) esp_https_server: performing session handshake[0m
+Deadman: no command for 540ms, stopping motors.
+Drive command: STOP at 0% speed using PWM duty 0/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: FORWARD at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+[0;32mI (266326) esp_https_server: performing session handshake[0m
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+[0;32mI (267836) esp_https_server: performing session handshake[0m
+Drive command: REVERSE at 80% speed using PWM duty 818/1023.
+Drive command: FORWARD at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+[0;32mI (269536) esp_https_server: performing session handshake[0m
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: REVERSE at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+[0;32mI (271856) esp_https_server: performing session handshake[0m
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: REVERSE at 80% speed using PWM duty 818/1023.
+[0;32mI (275756) esp_https_server: performing session handshake[0m
+Deadman: no command for 550ms, stopping motors.
+Drive command: STOP at 0% speed using PWM duty 0/1023.
+Drive command: REVERSE at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+[0;32mI (277916) esp_https_server: performing session handshake[0m
+Drive command: FORWARD at 80% speed using PWM duty 818/1023.
+Drive command: FORWARD at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+[0;32mI (279636) esp_https_server: performing session handshake[0m
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: FORWARD at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+[0;32mI (281236) esp_https_server: performing session handshake[0m
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: FORWARD at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+[0;32mI (283016) esp_https_server: performing session handshake[0m
+[0;32mI (283946) wifi:[ADDBA]RX DELBA, reason:1, delete tid:0, initiator:0(recipient)[0m
+[0;32mI (284256) wifi:[ADDBA]RX DELBA, reason:1, delete tid:0, initiator:0(recipient)[0m
+[0;32mI (284766) esp_https_server: performing session handshake[0m
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: FORWARD at 80% speed using PWM duty 818/1023.
+[0;32mI (286436) esp_https_server: performing session handshake[0m
+Deadman: no command for 570ms, stopping motors.
+Drive command: STOP at 0% speed using PWM duty 0/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+[0;32mI (288176) esp_https_server: performing session handshake[0m
+[0;32mI (289676) wifi:[ADDBA]RX DELBA, reason:1, delete tid:0, initiator:0(recipient)[0m
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+[0;32mI (290006) esp_https_server: performing session handshake[0m
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+[0;32mI (291686) esp_https_server: performing session handshake[0m
+Drive command: FORWARD at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+[0;32mI (307826) wifi:[ADDBA]RX DELBA, reason:1, delete tid:0, initiator:0(recipient)[0m
+Drive command: REVERSE at 80% speed using PWM duty 818/1023.
+[0;32mI (309396) wifi:[ADDBA]RX DELBA, reason:1, delete tid:0, initiator:0(recipient)[0m
+Deadman: no command for 580ms, stopping motors.
+Drive command: STOP at 0% speed using PWM duty 0/1023.
+[0;32mI (312646) wifi:[ADDBA]RX DELBA, reason:1, delete tid:0, initiator:0(recipient)[0m
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: REVERSE at 80% speed using PWM duty 818/1023.
+Deadman: no command for 560ms, stopping motors.
+Drive command: STOP at 0% speed using PWM duty 0/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: FORWARD at 80% speed using PWM duty 818/1023.
+Deadman: no command for 570ms, stopping motors.
+Drive command: STOP at 0% speed using PWM duty 0/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+[0;32mI (319186) wifi:[ADDBA]RX DELBA, reason:1, delete tid:0, initiator:0(recipient)[0m
+[0;32mI (319406) esp_https_server: performing session handshake[0m
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+[0;32mI (321406) esp_https_server: performing session handshake[0m
+[0;32mI (323116) wifi:[ADDBA]RX DELBA, reason:1, delete tid:0, initiator:0(recipient)[0m
+Drive command: STOP at 80% speed using PWM duty 818/1023.
+[0;32mI (323446) esp_https_server: performing session handshake[0m
+Drive command: REVERSE at 80% speed using PWM duty 818/1023.
+Drive command: STOP at 80% speed using PWM duty 818/1023.
