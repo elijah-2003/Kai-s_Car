@@ -372,21 +372,21 @@ body {
 <div class="dpad-container">
   <div class="dpad">
     <div class="dpad-spacer"></div>
-    <button class="dpad-btn" id="btnUp" data-cmd="forward">
+    <button class="dpad-btn" id="btnUp" data-cmd="reverse">
       <svg viewBox="0 0 24 24"><polyline points="12 5 12 19"/><polyline points="5 12 12 5 19 12"/></svg>
     </button>
     <div class="dpad-spacer"></div>
 
-    <button class="dpad-btn" id="btnLeft" data-cmd="left">
+    <button class="dpad-btn" id="btnLeft" data-cmd="right">
       <svg viewBox="0 0 24 24"><polyline points="19 12 5 12"/><polyline points="12 5 5 12 12 19"/></svg>
     </button>
     <button class="dpad-btn stop-btn" id="btnStop" data-cmd="stop">STOP</button>
-    <button class="dpad-btn" id="btnRight" data-cmd="right">
+    <button class="dpad-btn" id="btnRight" data-cmd="left">
       <svg viewBox="0 0 24 24"><polyline points="5 12 19 12"/><polyline points="12 5 19 12 12 19"/></svg>
     </button>
 
     <div class="dpad-spacer"></div>
-    <button class="dpad-btn" id="btnDown" data-cmd="reverse">
+    <button class="dpad-btn" id="btnDown" data-cmd="forward">
       <svg viewBox="0 0 24 24"><polyline points="12 19 12 5"/><polyline points="5 12 12 19 19 12"/></svg>
     </button>
     <div class="dpad-spacer"></div>
@@ -478,9 +478,33 @@ function onDisconnected() {
   connected = false;
   characteristic = null;
   stopSending();
-  setStatus('Disconnected', false);
   currentCmd = 'stop';
   updateCommandDisplay();
+  if (device) {
+    setStatus('Reconnecting...', false);
+    autoReconnect();
+  } else {
+    setStatus('Disconnected', false);
+  }
+}
+
+async function autoReconnect() {
+  for (let attempt = 1; attempt <= 30; attempt++) {
+    if (connected || !device) return;
+    setStatus(`Reconnecting (${attempt})...`, false);
+    try {
+      const server = await device.gatt.connect();
+      const service = await server.getPrimaryService(SERVICE_UUID);
+      characteristic = await service.getCharacteristic(CHAR_UUID);
+      connected = true;
+      setStatus('Connected', true);
+      startSending();
+      return;
+    } catch (e) {
+      await new Promise(r => setTimeout(r, 1500));
+    }
+  }
+  setStatus('Reconnect failed — tap Connect', false);
 }
 
 function setStatus(text, isConnected) {
