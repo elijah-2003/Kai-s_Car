@@ -51,6 +51,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Users/elijahjohnson/custom_commands/"
     searched_directories:
       - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump/git"
@@ -105,18 +106,8 @@ events:
         - "/opt/homebrew/bin"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump"
-        - "/Users/elijahjohnson/esp/esp-idf/components/partition_table"
-        - "/Users/elijahjohnson/esp/esp-idf/components/app_update"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf-gdb/16.3_20250913/xtensa-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf-gdb/16.3_20250913/riscv32-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20251107/riscv32-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/elijahjohnson/.espressif/python_env/idf5.5_py3.14_env/bin"
-        - "/Users/elijahjohnson/esp/esp-idf/tools"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/elijahjohnson/custom_commands"
         - "/Users/elijahjohnson/custom_commands"
   -
@@ -167,6 +158,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Users/elijahjohnson/custom_commands/"
     searched_directories:
       - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump/uname"
@@ -221,18 +213,8 @@ events:
         - "/opt/homebrew/bin"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump"
-        - "/Users/elijahjohnson/esp/esp-idf/components/partition_table"
-        - "/Users/elijahjohnson/esp/esp-idf/components/app_update"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf-gdb/16.3_20250913/xtensa-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf-gdb/16.3_20250913/riscv32-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20251107/riscv32-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/elijahjohnson/.espressif/python_env/idf5.5_py3.14_env/bin"
-        - "/Users/elijahjohnson/esp/esp-idf/tools"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/elijahjohnson/custom_commands"
         - "/Users/elijahjohnson/custom_commands"
   -
@@ -294,6 +276,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Users/elijahjohnson/custom_commands/"
     searched_directories:
       - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump/ninja-build"
@@ -411,18 +394,8 @@ events:
         - "/opt/homebrew/bin"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump"
-        - "/Users/elijahjohnson/esp/esp-idf/components/partition_table"
-        - "/Users/elijahjohnson/esp/esp-idf/components/app_update"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf-gdb/16.3_20250913/xtensa-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf-gdb/16.3_20250913/riscv32-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20251107/riscv32-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/elijahjohnson/.espressif/python_env/idf5.5_py3.14_env/bin"
-        - "/Users/elijahjohnson/esp/esp-idf/tools"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/elijahjohnson/custom_commands"
         - "/Users/elijahjohnson/custom_commands"
   -
@@ -474,6 +447,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Users/elijahjohnson/custom_commands/"
     searched_directories:
       - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc"
@@ -514,18 +488,8 @@ events:
         - "/opt/homebrew/bin"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump"
-        - "/Users/elijahjohnson/esp/esp-idf/components/partition_table"
-        - "/Users/elijahjohnson/esp/esp-idf/components/app_update"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf-gdb/16.3_20250913/xtensa-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf-gdb/16.3_20250913/riscv32-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20251107/riscv32-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/elijahjohnson/.espressif/python_env/idf5.5_py3.14_env/bin"
-        - "/Users/elijahjohnson/esp/esp-idf/tools"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/elijahjohnson/custom_commands"
         - "/Users/elijahjohnson/custom_commands"
   -
@@ -588,18 +552,8 @@ events:
         - "/opt/homebrew/bin"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump"
-        - "/Users/elijahjohnson/esp/esp-idf/components/partition_table"
-        - "/Users/elijahjohnson/esp/esp-idf/components/app_update"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf-gdb/16.3_20250913/xtensa-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf-gdb/16.3_20250913/riscv32-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20251107/riscv32-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/elijahjohnson/.espressif/python_env/idf5.5_py3.14_env/bin"
-        - "/Users/elijahjohnson/esp/esp-idf/tools"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/elijahjohnson/custom_commands"
         - "/Users/elijahjohnson/custom_commands"
   -
@@ -675,6 +629,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Users/elijahjohnson/custom_commands/"
     found: "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-ar"
     search_context:
@@ -709,18 +664,8 @@ events:
         - "/opt/homebrew/bin"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump"
-        - "/Users/elijahjohnson/esp/esp-idf/components/partition_table"
-        - "/Users/elijahjohnson/esp/esp-idf/components/app_update"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf-gdb/16.3_20250913/xtensa-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf-gdb/16.3_20250913/riscv32-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20251107/riscv32-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/elijahjohnson/.espressif/python_env/idf5.5_py3.14_env/bin"
-        - "/Users/elijahjohnson/esp/esp-idf/tools"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/elijahjohnson/custom_commands"
         - "/Users/elijahjohnson/custom_commands"
   -
@@ -773,6 +718,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Users/elijahjohnson/custom_commands/"
     found: "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-ranlib"
     search_context:
@@ -807,18 +753,8 @@ events:
         - "/opt/homebrew/bin"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump"
-        - "/Users/elijahjohnson/esp/esp-idf/components/partition_table"
-        - "/Users/elijahjohnson/esp/esp-idf/components/app_update"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf-gdb/16.3_20250913/xtensa-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf-gdb/16.3_20250913/riscv32-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20251107/riscv32-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/elijahjohnson/.espressif/python_env/idf5.5_py3.14_env/bin"
-        - "/Users/elijahjohnson/esp/esp-idf/tools"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/elijahjohnson/custom_commands"
         - "/Users/elijahjohnson/custom_commands"
   -
@@ -871,6 +807,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Users/elijahjohnson/custom_commands/"
     found: "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-strip"
     search_context:
@@ -905,18 +842,8 @@ events:
         - "/opt/homebrew/bin"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump"
-        - "/Users/elijahjohnson/esp/esp-idf/components/partition_table"
-        - "/Users/elijahjohnson/esp/esp-idf/components/app_update"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf-gdb/16.3_20250913/xtensa-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf-gdb/16.3_20250913/riscv32-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20251107/riscv32-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/elijahjohnson/.espressif/python_env/idf5.5_py3.14_env/bin"
-        - "/Users/elijahjohnson/esp/esp-idf/tools"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/elijahjohnson/custom_commands"
         - "/Users/elijahjohnson/custom_commands"
   -
@@ -969,6 +896,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Users/elijahjohnson/custom_commands/"
     found: "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-ld"
     search_context:
@@ -1003,18 +931,8 @@ events:
         - "/opt/homebrew/bin"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump"
-        - "/Users/elijahjohnson/esp/esp-idf/components/partition_table"
-        - "/Users/elijahjohnson/esp/esp-idf/components/app_update"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf-gdb/16.3_20250913/xtensa-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf-gdb/16.3_20250913/riscv32-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20251107/riscv32-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/elijahjohnson/.espressif/python_env/idf5.5_py3.14_env/bin"
-        - "/Users/elijahjohnson/esp/esp-idf/tools"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/elijahjohnson/custom_commands"
         - "/Users/elijahjohnson/custom_commands"
   -
@@ -1067,6 +985,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Users/elijahjohnson/custom_commands/"
     found: "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-nm"
     search_context:
@@ -1101,18 +1020,8 @@ events:
         - "/opt/homebrew/bin"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump"
-        - "/Users/elijahjohnson/esp/esp-idf/components/partition_table"
-        - "/Users/elijahjohnson/esp/esp-idf/components/app_update"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf-gdb/16.3_20250913/xtensa-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf-gdb/16.3_20250913/riscv32-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20251107/riscv32-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/elijahjohnson/.espressif/python_env/idf5.5_py3.14_env/bin"
-        - "/Users/elijahjohnson/esp/esp-idf/tools"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/elijahjohnson/custom_commands"
         - "/Users/elijahjohnson/custom_commands"
   -
@@ -1165,6 +1074,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Users/elijahjohnson/custom_commands/"
     found: "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-objdump"
     search_context:
@@ -1199,18 +1109,8 @@ events:
         - "/opt/homebrew/bin"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump"
-        - "/Users/elijahjohnson/esp/esp-idf/components/partition_table"
-        - "/Users/elijahjohnson/esp/esp-idf/components/app_update"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf-gdb/16.3_20250913/xtensa-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf-gdb/16.3_20250913/riscv32-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20251107/riscv32-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/elijahjohnson/.espressif/python_env/idf5.5_py3.14_env/bin"
-        - "/Users/elijahjohnson/esp/esp-idf/tools"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/elijahjohnson/custom_commands"
         - "/Users/elijahjohnson/custom_commands"
   -
@@ -1263,6 +1163,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Users/elijahjohnson/custom_commands/"
     found: "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-objcopy"
     search_context:
@@ -1297,18 +1198,8 @@ events:
         - "/opt/homebrew/bin"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump"
-        - "/Users/elijahjohnson/esp/esp-idf/components/partition_table"
-        - "/Users/elijahjohnson/esp/esp-idf/components/app_update"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf-gdb/16.3_20250913/xtensa-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf-gdb/16.3_20250913/riscv32-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20251107/riscv32-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/elijahjohnson/.espressif/python_env/idf5.5_py3.14_env/bin"
-        - "/Users/elijahjohnson/esp/esp-idf/tools"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/elijahjohnson/custom_commands"
         - "/Users/elijahjohnson/custom_commands"
   -
@@ -1361,6 +1252,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Users/elijahjohnson/custom_commands/"
     found: "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-readelf"
     search_context:
@@ -1395,18 +1287,8 @@ events:
         - "/opt/homebrew/bin"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump"
-        - "/Users/elijahjohnson/esp/esp-idf/components/partition_table"
-        - "/Users/elijahjohnson/esp/esp-idf/components/app_update"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf-gdb/16.3_20250913/xtensa-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf-gdb/16.3_20250913/riscv32-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20251107/riscv32-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/elijahjohnson/.espressif/python_env/idf5.5_py3.14_env/bin"
-        - "/Users/elijahjohnson/esp/esp-idf/tools"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/elijahjohnson/custom_commands"
         - "/Users/elijahjohnson/custom_commands"
   -
@@ -1459,6 +1341,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Users/elijahjohnson/custom_commands/"
     searched_directories:
       - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-dlltool"
@@ -1489,6 +1372,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xtensa-esp32-elf-dlltool"
       - "/Library/Apple/usr/bin/xtensa-esp32-elf-dlltool"
       - "/opt/homebrew/bin/xtensa-esp32-elf-dlltool"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-dlltool"
       - "/Users/elijahjohnson/custom_commands/xtensa-esp32-elf-dlltool"
       - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/dlltool"
       - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump/dlltool"
@@ -1518,6 +1402,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dlltool"
       - "/Library/Apple/usr/bin/dlltool"
       - "/opt/homebrew/bin/dlltool"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/dlltool"
       - "/Users/elijahjohnson/custom_commands/dlltool"
     found: false
     search_context:
@@ -1552,18 +1437,8 @@ events:
         - "/opt/homebrew/bin"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump"
-        - "/Users/elijahjohnson/esp/esp-idf/components/partition_table"
-        - "/Users/elijahjohnson/esp/esp-idf/components/app_update"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf-gdb/16.3_20250913/xtensa-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf-gdb/16.3_20250913/riscv32-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20251107/riscv32-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/elijahjohnson/.espressif/python_env/idf5.5_py3.14_env/bin"
-        - "/Users/elijahjohnson/esp/esp-idf/tools"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/elijahjohnson/custom_commands"
         - "/Users/elijahjohnson/custom_commands"
   -
@@ -1616,6 +1491,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Users/elijahjohnson/custom_commands/"
     found: "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-addr2line"
     search_context:
@@ -1650,18 +1526,8 @@ events:
         - "/opt/homebrew/bin"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump"
-        - "/Users/elijahjohnson/esp/esp-idf/components/partition_table"
-        - "/Users/elijahjohnson/esp/esp-idf/components/app_update"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf-gdb/16.3_20250913/xtensa-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf-gdb/16.3_20250913/riscv32-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20251107/riscv32-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/elijahjohnson/.espressif/python_env/idf5.5_py3.14_env/bin"
-        - "/Users/elijahjohnson/esp/esp-idf/tools"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/elijahjohnson/custom_commands"
         - "/Users/elijahjohnson/custom_commands"
   -
@@ -1714,6 +1580,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Users/elijahjohnson/custom_commands/"
     searched_directories:
       - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-tapi"
@@ -1744,6 +1611,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xtensa-esp32-elf-tapi"
       - "/Library/Apple/usr/bin/xtensa-esp32-elf-tapi"
       - "/opt/homebrew/bin/xtensa-esp32-elf-tapi"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-tapi"
       - "/Users/elijahjohnson/custom_commands/xtensa-esp32-elf-tapi"
       - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/tapi"
       - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump/tapi"
@@ -1773,6 +1641,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi"
       - "/Library/Apple/usr/bin/tapi"
       - "/opt/homebrew/bin/tapi"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/tapi"
       - "/Users/elijahjohnson/custom_commands/tapi"
     found: false
     search_context:
@@ -1807,18 +1676,8 @@ events:
         - "/opt/homebrew/bin"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump"
-        - "/Users/elijahjohnson/esp/esp-idf/components/partition_table"
-        - "/Users/elijahjohnson/esp/esp-idf/components/app_update"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf-gdb/16.3_20250913/xtensa-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf-gdb/16.3_20250913/riscv32-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20251107/riscv32-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/elijahjohnson/.espressif/python_env/idf5.5_py3.14_env/bin"
-        - "/Users/elijahjohnson/esp/esp-idf/tools"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/elijahjohnson/custom_commands"
         - "/Users/elijahjohnson/custom_commands"
   -
@@ -1873,6 +1732,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Users/elijahjohnson/custom_commands/"
     searched_directories:
       - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar-14.2"
@@ -1903,6 +1763,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xtensa-esp32-elf-gcc-ar-14.2"
       - "/Library/Apple/usr/bin/xtensa-esp32-elf-gcc-ar-14.2"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ar-14.2"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ar-14.2"
       - "/Users/elijahjohnson/custom_commands/xtensa-esp32-elf-gcc-ar-14.2"
       - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar-14"
       - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ar-14"
@@ -1932,6 +1793,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xtensa-esp32-elf-gcc-ar-14"
       - "/Library/Apple/usr/bin/xtensa-esp32-elf-gcc-ar-14"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ar-14"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ar-14"
       - "/Users/elijahjohnson/custom_commands/xtensa-esp32-elf-gcc-ar-14"
       - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar14"
       - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ar14"
@@ -1961,6 +1823,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xtensa-esp32-elf-gcc-ar14"
       - "/Library/Apple/usr/bin/xtensa-esp32-elf-gcc-ar14"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ar14"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ar14"
       - "/Users/elijahjohnson/custom_commands/xtensa-esp32-elf-gcc-ar14"
     found: "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar"
     search_context:
@@ -1995,18 +1858,8 @@ events:
         - "/opt/homebrew/bin"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump"
-        - "/Users/elijahjohnson/esp/esp-idf/components/partition_table"
-        - "/Users/elijahjohnson/esp/esp-idf/components/app_update"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf-gdb/16.3_20250913/xtensa-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf-gdb/16.3_20250913/riscv32-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20251107/riscv32-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/elijahjohnson/.espressif/python_env/idf5.5_py3.14_env/bin"
-        - "/Users/elijahjohnson/esp/esp-idf/tools"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/elijahjohnson/custom_commands"
         - "/Users/elijahjohnson/custom_commands"
   -
@@ -2061,6 +1914,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Users/elijahjohnson/custom_commands/"
     searched_directories:
       - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib-14.2"
@@ -2091,6 +1945,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/Library/Apple/usr/bin/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ranlib-14.2"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/Users/elijahjohnson/custom_commands/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib-14"
       - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ranlib-14"
@@ -2120,6 +1975,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xtensa-esp32-elf-gcc-ranlib-14"
       - "/Library/Apple/usr/bin/xtensa-esp32-elf-gcc-ranlib-14"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ranlib-14"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ranlib-14"
       - "/Users/elijahjohnson/custom_commands/xtensa-esp32-elf-gcc-ranlib-14"
       - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib14"
       - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ranlib14"
@@ -2149,6 +2005,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xtensa-esp32-elf-gcc-ranlib14"
       - "/Library/Apple/usr/bin/xtensa-esp32-elf-gcc-ranlib14"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ranlib14"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ranlib14"
       - "/Users/elijahjohnson/custom_commands/xtensa-esp32-elf-gcc-ranlib14"
     found: "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib"
     search_context:
@@ -2183,18 +2040,8 @@ events:
         - "/opt/homebrew/bin"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump"
-        - "/Users/elijahjohnson/esp/esp-idf/components/partition_table"
-        - "/Users/elijahjohnson/esp/esp-idf/components/app_update"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf-gdb/16.3_20250913/xtensa-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf-gdb/16.3_20250913/riscv32-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20251107/riscv32-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/elijahjohnson/.espressif/python_env/idf5.5_py3.14_env/bin"
-        - "/Users/elijahjohnson/esp/esp-idf/tools"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/elijahjohnson/custom_commands"
         - "/Users/elijahjohnson/custom_commands"
   -
@@ -2246,6 +2093,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Users/elijahjohnson/custom_commands/"
     searched_directories:
       - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-g++"
@@ -2286,18 +2134,8 @@ events:
         - "/opt/homebrew/bin"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump"
-        - "/Users/elijahjohnson/esp/esp-idf/components/partition_table"
-        - "/Users/elijahjohnson/esp/esp-idf/components/app_update"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf-gdb/16.3_20250913/xtensa-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf-gdb/16.3_20250913/riscv32-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20251107/riscv32-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/elijahjohnson/.espressif/python_env/idf5.5_py3.14_env/bin"
-        - "/Users/elijahjohnson/esp/esp-idf/tools"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/elijahjohnson/custom_commands"
         - "/Users/elijahjohnson/custom_commands"
   -
@@ -2360,18 +2198,8 @@ events:
         - "/opt/homebrew/bin"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump"
-        - "/Users/elijahjohnson/esp/esp-idf/components/partition_table"
-        - "/Users/elijahjohnson/esp/esp-idf/components/app_update"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf-gdb/16.3_20250913/xtensa-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf-gdb/16.3_20250913/riscv32-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20251107/riscv32-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/elijahjohnson/.espressif/python_env/idf5.5_py3.14_env/bin"
-        - "/Users/elijahjohnson/esp/esp-idf/tools"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/elijahjohnson/custom_commands"
         - "/Users/elijahjohnson/custom_commands"
   -
@@ -2449,6 +2277,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Users/elijahjohnson/custom_commands/"
     searched_directories:
       - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar-14.2"
@@ -2479,6 +2308,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xtensa-esp32-elf-gcc-ar-14.2"
       - "/Library/Apple/usr/bin/xtensa-esp32-elf-gcc-ar-14.2"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ar-14.2"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ar-14.2"
       - "/Users/elijahjohnson/custom_commands/xtensa-esp32-elf-gcc-ar-14.2"
       - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar-14"
       - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ar-14"
@@ -2508,6 +2338,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xtensa-esp32-elf-gcc-ar-14"
       - "/Library/Apple/usr/bin/xtensa-esp32-elf-gcc-ar-14"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ar-14"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ar-14"
       - "/Users/elijahjohnson/custom_commands/xtensa-esp32-elf-gcc-ar-14"
       - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar14"
       - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ar14"
@@ -2537,6 +2368,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xtensa-esp32-elf-gcc-ar14"
       - "/Library/Apple/usr/bin/xtensa-esp32-elf-gcc-ar14"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ar14"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ar14"
       - "/Users/elijahjohnson/custom_commands/xtensa-esp32-elf-gcc-ar14"
     found: "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar"
     search_context:
@@ -2571,18 +2403,8 @@ events:
         - "/opt/homebrew/bin"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump"
-        - "/Users/elijahjohnson/esp/esp-idf/components/partition_table"
-        - "/Users/elijahjohnson/esp/esp-idf/components/app_update"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf-gdb/16.3_20250913/xtensa-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf-gdb/16.3_20250913/riscv32-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20251107/riscv32-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/elijahjohnson/.espressif/python_env/idf5.5_py3.14_env/bin"
-        - "/Users/elijahjohnson/esp/esp-idf/tools"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/elijahjohnson/custom_commands"
         - "/Users/elijahjohnson/custom_commands"
   -
@@ -2637,6 +2459,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Users/elijahjohnson/custom_commands/"
     searched_directories:
       - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib-14.2"
@@ -2667,6 +2490,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/Library/Apple/usr/bin/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ranlib-14.2"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/Users/elijahjohnson/custom_commands/xtensa-esp32-elf-gcc-ranlib-14.2"
       - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib-14"
       - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ranlib-14"
@@ -2696,6 +2520,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xtensa-esp32-elf-gcc-ranlib-14"
       - "/Library/Apple/usr/bin/xtensa-esp32-elf-gcc-ranlib-14"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ranlib-14"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ranlib-14"
       - "/Users/elijahjohnson/custom_commands/xtensa-esp32-elf-gcc-ranlib-14"
       - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib14"
       - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ranlib14"
@@ -2725,6 +2550,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xtensa-esp32-elf-gcc-ranlib14"
       - "/Library/Apple/usr/bin/xtensa-esp32-elf-gcc-ranlib14"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ranlib14"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ranlib14"
       - "/Users/elijahjohnson/custom_commands/xtensa-esp32-elf-gcc-ranlib14"
     found: "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib"
     search_context:
@@ -2759,18 +2585,8 @@ events:
         - "/opt/homebrew/bin"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump"
-        - "/Users/elijahjohnson/esp/esp-idf/components/partition_table"
-        - "/Users/elijahjohnson/esp/esp-idf/components/app_update"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf-gdb/16.3_20250913/xtensa-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf-gdb/16.3_20250913/riscv32-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20251107/riscv32-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/elijahjohnson/.espressif/python_env/idf5.5_py3.14_env/bin"
-        - "/Users/elijahjohnson/esp/esp-idf/tools"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/elijahjohnson/custom_commands"
         - "/Users/elijahjohnson/custom_commands"
   -
@@ -2822,6 +2638,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Users/elijahjohnson/custom_commands/"
     searched_directories:
       - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc"
@@ -2862,18 +2679,8 @@ events:
         - "/opt/homebrew/bin"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump"
-        - "/Users/elijahjohnson/esp/esp-idf/components/partition_table"
-        - "/Users/elijahjohnson/esp/esp-idf/components/app_update"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf-gdb/16.3_20250913/xtensa-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf-gdb/16.3_20250913/riscv32-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20251107/riscv32-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/elijahjohnson/.espressif/python_env/idf5.5_py3.14_env/bin"
-        - "/Users/elijahjohnson/esp/esp-idf/tools"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/elijahjohnson/custom_commands"
         - "/Users/elijahjohnson/custom_commands"
   -
@@ -2942,6 +2749,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Users/elijahjohnson/custom_commands/"
     searched_directories:
       - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar-"
@@ -2972,6 +2780,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xtensa-esp32-elf-gcc-ar-"
       - "/Library/Apple/usr/bin/xtensa-esp32-elf-gcc-ar-"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ar-"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ar-"
       - "/Users/elijahjohnson/custom_commands/xtensa-esp32-elf-gcc-ar-"
       - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar-"
       - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ar-"
@@ -3001,6 +2810,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xtensa-esp32-elf-gcc-ar-"
       - "/Library/Apple/usr/bin/xtensa-esp32-elf-gcc-ar-"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ar-"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ar-"
       - "/Users/elijahjohnson/custom_commands/xtensa-esp32-elf-gcc-ar-"
     found: "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ar"
     search_context:
@@ -3035,18 +2845,8 @@ events:
         - "/opt/homebrew/bin"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump"
-        - "/Users/elijahjohnson/esp/esp-idf/components/partition_table"
-        - "/Users/elijahjohnson/esp/esp-idf/components/app_update"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf-gdb/16.3_20250913/xtensa-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf-gdb/16.3_20250913/riscv32-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20251107/riscv32-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/elijahjohnson/.espressif/python_env/idf5.5_py3.14_env/bin"
-        - "/Users/elijahjohnson/esp/esp-idf/tools"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/elijahjohnson/custom_commands"
         - "/Users/elijahjohnson/custom_commands"
   -
@@ -3101,6 +2901,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
       - "/Library/Apple/usr/bin/"
       - "/opt/homebrew/bin/"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/"
       - "/Users/elijahjohnson/custom_commands/"
     searched_directories:
       - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib-"
@@ -3131,6 +2932,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xtensa-esp32-elf-gcc-ranlib-"
       - "/Library/Apple/usr/bin/xtensa-esp32-elf-gcc-ranlib-"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ranlib-"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ranlib-"
       - "/Users/elijahjohnson/custom_commands/xtensa-esp32-elf-gcc-ranlib-"
       - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib-"
       - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump/xtensa-esp32-elf-gcc-ranlib-"
@@ -3160,6 +2962,7 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/xtensa-esp32-elf-gcc-ranlib-"
       - "/Library/Apple/usr/bin/xtensa-esp32-elf-gcc-ranlib-"
       - "/opt/homebrew/bin/xtensa-esp32-elf-gcc-ranlib-"
+      - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts/xtensa-esp32-elf-gcc-ranlib-"
       - "/Users/elijahjohnson/custom_commands/xtensa-esp32-elf-gcc-ranlib-"
     found: "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc-ranlib"
     search_context:
@@ -3194,18 +2997,8 @@ events:
         - "/opt/homebrew/bin"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
         - "/Users/elijahjohnson/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
-        - "/Users/elijahjohnson/esp/esp-idf/components/espcoredump"
-        - "/Users/elijahjohnson/esp/esp-idf/components/partition_table"
-        - "/Users/elijahjohnson/esp/esp-idf/components/app_update"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf-gdb/16.3_20250913/xtensa-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf-gdb/16.3_20250913/riscv32-esp-elf-gdb/bin"
-        - "/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/riscv32-esp-elf/esp-14.2.0_20251107/riscv32-esp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/esp32ulp-elf/2.38_20240113/esp32ulp-elf/bin"
-        - "/Users/elijahjohnson/.espressif/tools/openocd-esp32/v0.12.0-esp32-20250707/openocd-esp32/bin"
-        - "/Users/elijahjohnson/.espressif/python_env/idf5.5_py3.14_env/bin"
-        - "/Users/elijahjohnson/esp/esp-idf/tools"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Users/elijahjohnson/.vscode/extensions/ms-python.debugpy-2026.6.0-darwin-arm64/bundled/scripts/noConfigScripts"
         - "/Users/elijahjohnson/custom_commands"
         - "/Users/elijahjohnson/custom_commands"
   -
@@ -3218,8 +3011,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/elijahjohnson/kai_car/build/CMakeFiles/CMakeScratch/TryCompile-EhybYE"
-      binary: "/Users/elijahjohnson/kai_car/build/CMakeFiles/CMakeScratch/TryCompile-EhybYE"
+      source: "/Users/elijahjohnson/kai_car/build/CMakeFiles/CMakeScratch/TryCompile-0ZI3Fa"
+      binary: "/Users/elijahjohnson/kai_car/build/CMakeFiles/CMakeScratch/TryCompile-0ZI3Fa"
     cmakeVariables:
       CMAKE_C_FLAGS: "-mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -3229,10 +3022,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/elijahjohnson/kai_car/build/CMakeFiles/CMakeScratch/TryCompile-EhybYE'
+        Change Dir: '/Users/elijahjohnson/kai_car/build/CMakeFiles/CMakeScratch/TryCompile-0ZI3Fa'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_29eb0
-        [1/2] /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_29eb0.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_43835
+        [1/2] /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_43835.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-gcc
         Target: xtensa-esp-elf
@@ -3240,8 +3033,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 14.2.0 (crosstool-NG esp-14.2.0_20251107) 
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_29eb0.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_29eb0.dir/'
-         /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1 -quiet -v -imultilib esp32 -iprefix /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_29eb0.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/h9/kg1_2hqd2b58x0tv6_f7zf1m0000gn/T//cc02FcMv.s
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_43835.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_43835.dir/'
+         /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1 -quiet -v -imultilib esp32 -iprefix /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_43835.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/h9/kg1_2hqd2b58x0tv6_f7zf1m0000gn/T//ccpBMYfr.s
         GNU C17 (crosstool-NG esp-14.2.0_20251107) version 14.2.0 (xtensa-esp-elf)
         	compiled by GNU C version Debian Clang 11.0.1, GMP version 6.2.1, MPFR version 4.2.1, MPC version 1.2.1, isl version isl-0.26-GMP
         
@@ -3258,12 +3051,12 @@ events:
          /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include
         End of search list.
         Compiler executable checksum: 513abd5c52edd207b9d1c09e94af0bc7
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_29eb0.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_29eb0.dir/'
-         /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_29eb0.dir/CMakeCCompilerABI.c.obj /var/folders/h9/kg1_2hqd2b58x0tv6_f7zf1m0000gn/T//cc02FcMv.s
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_43835.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_43835.dir/'
+         /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_43835.dir/CMakeCCompilerABI.c.obj /var/folders/h9/kg1_2hqd2b58x0tv6_f7zf1m0000gn/T//ccpBMYfr.s
         COMPILER_PATH=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/
         LIBRARY_PATH=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_29eb0.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_29eb0.dir/CMakeCCompilerABI.c.'
-        [2/2] : && /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_29eb0.dir/CMakeCCompilerABI.c.obj -o cmTC_29eb0   && :
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_43835.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_43835.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_43835.dir/CMakeCCompilerABI.c.obj -o cmTC_43835   && :
         Using built-in specs.
         COLLECT_GCC=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-gcc
         COLLECT_LTO_WRAPPER=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper
@@ -3274,10 +3067,10 @@ events:
         gcc version 14.2.0 (crosstool-NG esp-14.2.0_20251107) 
         COMPILER_PATH=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/
         LIBRARY_PATH=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_29eb0' '-dumpdir' 'cmTC_29eb0.'
-         /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/h9/kg1_2hqd2b58x0tv6_f7zf1m0000gn/T//ccaNeklR.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_29eb0 -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_29eb0.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_43835' '-dumpdir' 'cmTC_43835.'
+         /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/h9/kg1_2hqd2b58x0tv6_f7zf1m0000gn/T//ccR17WAg.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_43835 -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_43835.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc
         /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 00400074
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_29eb0' '-dumpdir' 'cmTC_29eb0.'
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_43835' '-dumpdir' 'cmTC_43835.'
         
       exitCode: 0
   -
@@ -3312,10 +3105,10 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/elijahjohnson/kai_car/build/CMakeFiles/CMakeScratch/TryCompile-EhybYE']
+        ignore line: [Change Dir: '/Users/elijahjohnson/kai_car/build/CMakeFiles/CMakeScratch/TryCompile-0ZI3Fa']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_29eb0]
-        ignore line: [[1/2] /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_29eb0.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_43835]
+        ignore line: [[1/2] /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_43835.dir/CMakeCCompilerABI.c.obj -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-gcc]
         ignore line: [Target: xtensa-esp-elf]
@@ -3323,8 +3116,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20251107) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_29eb0.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_29eb0.dir/']
-        ignore line: [ /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1 -quiet -v -imultilib esp32 -iprefix /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_29eb0.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/h9/kg1_2hqd2b58x0tv6_f7zf1m0000gn/T//cc02FcMv.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_43835.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_43835.dir/']
+        ignore line: [ /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1 -quiet -v -imultilib esp32 -iprefix /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_43835.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/h9/kg1_2hqd2b58x0tv6_f7zf1m0000gn/T//ccpBMYfr.s]
         ignore line: [GNU C17 (crosstool-NG esp-14.2.0_20251107) version 14.2.0 (xtensa-esp-elf)]
         ignore line: [	compiled by GNU C version Debian Clang 11.0.1  GMP version 6.2.1  MPFR version 4.2.1  MPC version 1.2.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -3341,12 +3134,12 @@ events:
         ignore line: [ /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 513abd5c52edd207b9d1c09e94af0bc7]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_29eb0.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_29eb0.dir/']
-        ignore line: [ /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_29eb0.dir/CMakeCCompilerABI.c.obj /var/folders/h9/kg1_2hqd2b58x0tv6_f7zf1m0000gn/T//cc02FcMv.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_43835.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_43835.dir/']
+        ignore line: [ /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_43835.dir/CMakeCCompilerABI.c.obj /var/folders/h9/kg1_2hqd2b58x0tv6_f7zf1m0000gn/T//ccpBMYfr.s]
         ignore line: [COMPILER_PATH=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_29eb0.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_29eb0.dir/CMakeCCompilerABI.c.']
-        ignore line: [[2/2] : && /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_29eb0.dir/CMakeCCompilerABI.c.obj -o cmTC_29eb0   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_43835.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_43835.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_43835.dir/CMakeCCompilerABI.c.obj -o cmTC_43835   && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-gcc]
         ignore line: [COLLECT_LTO_WRAPPER=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper]
@@ -3357,13 +3150,13 @@ events:
         ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20251107) ]
         ignore line: [COMPILER_PATH=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_29eb0' '-dumpdir' 'cmTC_29eb0.']
-        link line: [ /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/h9/kg1_2hqd2b58x0tv6_f7zf1m0000gn/T//ccaNeklR.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_29eb0 -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_29eb0.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_43835' '-dumpdir' 'cmTC_43835.']
+        link line: [ /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/h9/kg1_2hqd2b58x0tv6_f7zf1m0000gn/T//ccR17WAg.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_43835 -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_43835.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc]
           arg [/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/var/folders/h9/kg1_2hqd2b58x0tv6_f7zf1m0000gn/T//ccaNeklR.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/var/folders/h9/kg1_2hqd2b58x0tv6_f7zf1m0000gn/T//ccR17WAg.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
           arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
@@ -3372,7 +3165,7 @@ events:
           arg [--sysroot=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf] ==> ignore
           arg [--dynconfig=xtensa_esp32.so] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_29eb0] ==> ignore
+          arg [cmTC_43835] ==> ignore
           arg [-L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32] ==> dir [/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32]
           arg [-L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32] ==> dir [/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32]
           arg [-L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32] ==> dir [/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32]
@@ -3381,7 +3174,7 @@ events:
           arg [-L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib] ==> dir [/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib]
           arg [-L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib] ==> dir [/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib]
           arg [-L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib] ==> dir [/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib]
-          arg [CMakeFiles/cmTC_29eb0.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [CMakeFiles/cmTC_43835.dir/CMakeCCompilerABI.c.obj] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [-lc] ==> lib [c]
           arg [-lnosys] ==> lib [nosys]
@@ -3389,7 +3182,7 @@ events:
           arg [-lgcc] ==> lib [gcc]
         ignore line: [/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: warning: cannot find entry symbol _start]
         ignore line: [ defaulting to 00400074]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_29eb0' '-dumpdir' 'cmTC_29eb0.']
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_43835' '-dumpdir' 'cmTC_43835.']
         ignore line: []
         ignore line: []
         collapse library dir [/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32] ==> [/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32]
@@ -3416,8 +3209,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/elijahjohnson/kai_car/build/CMakeFiles/CMakeScratch/TryCompile-D2WxIr"
-      binary: "/Users/elijahjohnson/kai_car/build/CMakeFiles/CMakeScratch/TryCompile-D2WxIr"
+      source: "/Users/elijahjohnson/kai_car/build/CMakeFiles/CMakeScratch/TryCompile-qy1c0M"
+      binary: "/Users/elijahjohnson/kai_car/build/CMakeFiles/CMakeScratch/TryCompile-qy1c0M"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -3428,10 +3221,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/elijahjohnson/kai_car/build/CMakeFiles/CMakeScratch/TryCompile-D2WxIr'
+        Change Dir: '/Users/elijahjohnson/kai_car/build/CMakeFiles/CMakeScratch/TryCompile-qy1c0M'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_a1b2b
-        [1/2] /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-g++   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_a1b2b.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_ac415
+        [1/2] /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-g++   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_ac415.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-g++
         Target: xtensa-esp-elf
@@ -3439,8 +3232,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 14.2.0 (crosstool-NG esp-14.2.0_20251107) 
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_a1b2b.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_a1b2b.dir/'
-         /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1plus -quiet -v -imultilib esp32 -iprefix /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a1b2b.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/h9/kg1_2hqd2b58x0tv6_f7zf1m0000gn/T//cckgK9Hs.s
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_ac415.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_ac415.dir/'
+         /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1plus -quiet -v -imultilib esp32 -iprefix /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ac415.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/h9/kg1_2hqd2b58x0tv6_f7zf1m0000gn/T//cclJgaNd.s
         GNU C++17 (crosstool-NG esp-14.2.0_20251107) version 14.2.0 (xtensa-esp-elf)
         	compiled by GNU C version Debian Clang 11.0.1, GMP version 6.2.1, MPFR version 4.2.1, MPC version 1.2.1, isl version isl-0.26-GMP
         
@@ -3463,12 +3256,12 @@ events:
          /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include
         End of search list.
         Compiler executable checksum: ac958e5d8ea94ccf774d2cae91f75f17
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_a1b2b.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_a1b2b.dir/'
-         /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_a1b2b.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/h9/kg1_2hqd2b58x0tv6_f7zf1m0000gn/T//cckgK9Hs.s
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_ac415.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_ac415.dir/'
+         /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_ac415.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/h9/kg1_2hqd2b58x0tv6_f7zf1m0000gn/T//cclJgaNd.s
         COMPILER_PATH=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/
         LIBRARY_PATH=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_a1b2b.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_a1b2b.dir/CMakeCXXCompilerABI.cpp.'
-        [2/2] : && /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_a1b2b.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_a1b2b   && :
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_ac415.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_ac415.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_ac415.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_ac415   && :
         Using built-in specs.
         COLLECT_GCC=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-g++
         COLLECT_LTO_WRAPPER=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper
@@ -3479,10 +3272,10 @@ events:
         gcc version 14.2.0 (crosstool-NG esp-14.2.0_20251107) 
         COMPILER_PATH=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/
         LIBRARY_PATH=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_a1b2b' '-dumpdir' 'cmTC_a1b2b.'
-         /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/h9/kg1_2hqd2b58x0tv6_f7zf1m0000gn/T//ccpEyAPI.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_a1b2b -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_a1b2b.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_ac415' '-dumpdir' 'cmTC_ac415.'
+         /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/h9/kg1_2hqd2b58x0tv6_f7zf1m0000gn/T//ccKukMWj.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_ac415 -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_ac415.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc
         /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 00400074
-        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_a1b2b' '-dumpdir' 'cmTC_a1b2b.'
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_ac415' '-dumpdir' 'cmTC_ac415.'
         
       exitCode: 0
   -
@@ -3523,10 +3316,10 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/elijahjohnson/kai_car/build/CMakeFiles/CMakeScratch/TryCompile-D2WxIr']
+        ignore line: [Change Dir: '/Users/elijahjohnson/kai_car/build/CMakeFiles/CMakeScratch/TryCompile-qy1c0M']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_a1b2b]
-        ignore line: [[1/2] /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-g++   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_a1b2b.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_ac415]
+        ignore line: [[1/2] /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-g++   -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy    -v -o CMakeFiles/cmTC_ac415.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-g++]
         ignore line: [Target: xtensa-esp-elf]
@@ -3534,8 +3327,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20251107) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_a1b2b.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_a1b2b.dir/']
-        ignore line: [ /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1plus -quiet -v -imultilib esp32 -iprefix /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a1b2b.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/h9/kg1_2hqd2b58x0tv6_f7zf1m0000gn/T//cckgK9Hs.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_ac415.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_ac415.dir/']
+        ignore line: [ /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/cc1plus -quiet -v -imultilib esp32 -iprefix /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/ -isysroot /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ac415.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mdynconfig=xtensa_esp32.so -mlongcalls -Wno-frame-address -version -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o /var/folders/h9/kg1_2hqd2b58x0tv6_f7zf1m0000gn/T//cclJgaNd.s]
         ignore line: [GNU C++17 (crosstool-NG esp-14.2.0_20251107) version 14.2.0 (xtensa-esp-elf)]
         ignore line: [	compiled by GNU C version Debian Clang 11.0.1  GMP version 6.2.1  MPFR version 4.2.1  MPC version 1.2.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -3558,12 +3351,12 @@ events:
         ignore line: [ /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: ac958e5d8ea94ccf774d2cae91f75f17]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_a1b2b.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_a1b2b.dir/']
-        ignore line: [ /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_a1b2b.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/h9/kg1_2hqd2b58x0tv6_f7zf1m0000gn/T//cckgK9Hs.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_ac415.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_ac415.dir/']
+        ignore line: [ /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/as --traditional-format --longcalls --dynconfig=xtensa_esp32.so -o CMakeFiles/cmTC_ac415.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/h9/kg1_2hqd2b58x0tv6_f7zf1m0000gn/T//cclJgaNd.s]
         ignore line: [COMPILER_PATH=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_a1b2b.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_a1b2b.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [[2/2] : && /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_a1b2b.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_a1b2b   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-v' '-o' 'CMakeFiles/cmTC_ac415.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_ac415.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles  -v CMakeFiles/cmTC_ac415.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_ac415   && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp-elf-g++]
         ignore line: [COLLECT_LTO_WRAPPER=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper]
@@ -3574,13 +3367,13 @@ events:
         ignore line: [gcc version 14.2.0 (crosstool-NG esp-14.2.0_20251107) ]
         ignore line: [COMPILER_PATH=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/]
         ignore line: [LIBRARY_PATH=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/:/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_a1b2b' '-dumpdir' 'cmTC_a1b2b.']
-        link line: [ /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/h9/kg1_2hqd2b58x0tv6_f7zf1m0000gn/T//ccpEyAPI.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_a1b2b -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_a1b2b.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc]
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_ac415' '-dumpdir' 'cmTC_ac415.']
+        link line: [ /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2 -plugin /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so -plugin-opt=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/h9/kg1_2hqd2b58x0tv6_f7zf1m0000gn/T//ccKukMWj.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc --sysroot=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf --dynconfig=xtensa_esp32.so -o cmTC_ac415 -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32 -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32 -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32 -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0 -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib -L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib CMakeFiles/cmTC_ac415.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc]
           arg [/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../libexec/gcc/xtensa-esp-elf/14.2.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/var/folders/h9/kg1_2hqd2b58x0tv6_f7zf1m0000gn/T//ccpEyAPI.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/var/folders/h9/kg1_2hqd2b58x0tv6_f7zf1m0000gn/T//ccKukMWj.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
           arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
@@ -3589,7 +3382,7 @@ events:
           arg [--sysroot=/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf] ==> ignore
           arg [--dynconfig=xtensa_esp32.so] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_a1b2b] ==> ignore
+          arg [cmTC_ac415] ==> ignore
           arg [-L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32] ==> dir [/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32]
           arg [-L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32] ==> dir [/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib/esp32]
           arg [-L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32] ==> dir [/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib/esp32]
@@ -3598,7 +3391,7 @@ events:
           arg [-L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib] ==> dir [/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/lib]
           arg [-L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib] ==> dir [/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/lib]
           arg [-L/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib] ==> dir [/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../xtensa-esp-elf/usr/lib]
-          arg [CMakeFiles/cmTC_a1b2b.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [CMakeFiles/cmTC_ac415.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc] ==> lib [gcc]
@@ -3608,7 +3401,7 @@ events:
           arg [-lgcc] ==> lib [gcc]
         ignore line: [/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: warning: cannot find entry symbol _start]
         ignore line: [ defaulting to 00400074]
-        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_a1b2b' '-dumpdir' 'cmTC_a1b2b.']
+        ignore line: [COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-mlongcalls' '-Wno-frame-address' '-fno-builtin-memcpy' '-fno-builtin-memset' '-fno-builtin-bzero' '-fno-builtin-stpcpy' '-fno-builtin-strncpy' '-nostartfiles' '-v' '-o' 'cmTC_ac415' '-dumpdir' 'cmTC_ac415.']
         ignore line: []
         ignore line: []
         collapse library dir [/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32] ==> [/Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32]
@@ -3636,8 +3429,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/Users/elijahjohnson/kai_car/build/CMakeFiles/CMakeScratch/TryCompile-51zBok"
-      binary: "/Users/elijahjohnson/kai_car/build/CMakeFiles/CMakeScratch/TryCompile-51zBok"
+      source: "/Users/elijahjohnson/kai_car/build/CMakeFiles/CMakeScratch/TryCompile-S8fiFu"
+      binary: "/Users/elijahjohnson/kai_car/build/CMakeFiles/CMakeScratch/TryCompile-S8fiFu"
     cmakeVariables:
       CMAKE_C_FLAGS: "-mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -3647,17 +3440,17 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/Users/elijahjohnson/kai_car/build/CMakeFiles/CMakeScratch/TryCompile-51zBok'
+        Change Dir: '/Users/elijahjohnson/kai_car/build/CMakeFiles/CMakeScratch/TryCompile-S8fiFu'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_bbf1c
-        [1/2] /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -DCMAKE_HAVE_LIBC_PTHREAD  -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o CMakeFiles/cmTC_bbf1c.dir/src.c.obj -c /Users/elijahjohnson/kai_car/build/CMakeFiles/CMakeScratch/TryCompile-51zBok/src.c
-        [2/2] : && /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles CMakeFiles/cmTC_bbf1c.dir/src.c.obj -o cmTC_bbf1c   && :
-        /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_bbf1c.dir/src.c.obj:(.literal+0x14): warning: pthread_atfork is not implemented and will always fail
-        /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_bbf1c.dir/src.c.obj:(.literal+0xc): warning: pthread_cancel is not implemented and will always fail
-        /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_bbf1c.dir/src.c.obj:(.literal+0x4): warning: pthread_create is not implemented and will always fail
-        /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_bbf1c.dir/src.c.obj:(.literal+0x8): warning: pthread_detach is not implemented and will always fail
-        /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_bbf1c.dir/src.c.obj:(.literal+0x18): warning: pthread_exit is not implemented and will always fail
-        /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_bbf1c.dir/src.c.obj:(.literal+0x10): warning: pthread_join is not implemented and will always fail
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_315a0
+        [1/2] /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -DCMAKE_HAVE_LIBC_PTHREAD  -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -o CMakeFiles/cmTC_315a0.dir/src.c.obj -c /Users/elijahjohnson/kai_car/build/CMakeFiles/CMakeScratch/TryCompile-S8fiFu/src.c
+        [2/2] : && /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -nostartfiles CMakeFiles/cmTC_315a0.dir/src.c.obj -o cmTC_315a0   && :
+        /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_315a0.dir/src.c.obj:(.literal+0x14): warning: pthread_atfork is not implemented and will always fail
+        /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_315a0.dir/src.c.obj:(.literal+0xc): warning: pthread_cancel is not implemented and will always fail
+        /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_315a0.dir/src.c.obj:(.literal+0x4): warning: pthread_create is not implemented and will always fail
+        /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_315a0.dir/src.c.obj:(.literal+0x8): warning: pthread_detach is not implemented and will always fail
+        /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_315a0.dir/src.c.obj:(.literal+0x18): warning: pthread_exit is not implemented and will always fail
+        /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: CMakeFiles/cmTC_315a0.dir/src.c.obj:(.literal+0x10): warning: pthread_join is not implemented and will always fail
         /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 00400054
         
       exitCode: 0
@@ -3671,8 +3464,8 @@ events:
     checks:
       - "Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS"
     directories:
-      source: "/Users/elijahjohnson/kai_car/build/CMakeFiles/CMakeScratch/TryCompile-HteU3C"
-      binary: "/Users/elijahjohnson/kai_car/build/CMakeFiles/CMakeScratch/TryCompile-HteU3C"
+      source: "/Users/elijahjohnson/kai_car/build/CMakeFiles/CMakeScratch/TryCompile-NVCWhg"
+      binary: "/Users/elijahjohnson/kai_car/build/CMakeFiles/CMakeScratch/TryCompile-NVCWhg"
     cmakeVariables:
       CMAKE_C_FLAGS: "-mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -3682,11 +3475,11 @@ events:
       variable: "C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS"
       cached: true
       stdout: |
-        Change Dir: '/Users/elijahjohnson/kai_car/build/CMakeFiles/CMakeScratch/TryCompile-HteU3C'
+        Change Dir: '/Users/elijahjohnson/kai_car/build/CMakeFiles/CMakeScratch/TryCompile-NVCWhg'
         
-        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_fb390
-        [1/2] /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -DC_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS  -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow    -Wformat-signedness -o CMakeFiles/cmTC_fb390.dir/src.c.obj -c /Users/elijahjohnson/kai_car/build/CMakeFiles/CMakeScratch/TryCompile-HteU3C/src.c
-        [2/2] : && /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow -nostartfiles CMakeFiles/cmTC_fb390.dir/src.c.obj -o cmTC_fb390   && :
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_f3d22
+        [1/2] /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -DC_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS  -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow    -Wformat-signedness -o CMakeFiles/cmTC_f3d22.dir/src.c.obj -c /Users/elijahjohnson/kai_car/build/CMakeFiles/CMakeScratch/TryCompile-NVCWhg/src.c
+        [2/2] : && /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -mlongcalls -Wno-frame-address  -fno-builtin-memcpy -fno-builtin-memset -fno-builtin-bzero -fno-builtin-stpcpy -fno-builtin-strncpy -Wall -Wextra -Wwrite-strings -Wmissing-prototypes -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow -nostartfiles CMakeFiles/cmTC_f3d22.dir/src.c.obj -o cmTC_f3d22   && :
         /Users/elijahjohnson/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20251107/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/../../../../xtensa-esp-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 00400054
         
       exitCode: 0

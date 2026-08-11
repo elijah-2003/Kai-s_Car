@@ -104,7 +104,7 @@ void gatts_event_handler(esp_gatts_cb_event_t event, esp_gatt_if_t gatts_if,
         std::printf("BLE client connected.\n");
         g_last_ble_command = DRIVE_STOP;
         show_face(FACE_CONNECTED);
-        play_sound(SOUND_CONNECTED);
+        play_sound(SOUND_HONK);
         break;
 
     case ESP_GATTS_DISCONNECT_EVT:
@@ -114,7 +114,8 @@ void gatts_event_handler(esp_gatts_cb_event_t event, esp_gatt_if_t gatts_if,
             apply_drive_command(DRIVE_STOP, 0);
         }
         show_face(FACE_SAD);
-        stop_sound();
+        clear_background_sound();
+        play_sound(SOUND_SCREECH);
         start_advertising();
         break;
 
@@ -139,6 +140,10 @@ void gatts_event_handler(esp_gatts_cb_event_t event, esp_gatt_if_t gatts_if,
             // Honk is a one-shot sound, not a drive command
             if (std::strcmp(cmd_buf, "honk") == 0) {
                 play_sound(SOUND_HONK);
+            } else if (std::strncmp(cmd_buf, "pin", 3) == 0 && cmd_buf[3] >= '0' && cmd_buf[3] <= '3') {
+                int pin = cmd_buf[3] - '0';
+                std::printf("PIN TEST: pin %d at %u%%\n", pin, speed);
+                test_motor_pin(pin, speed);
             } else if (g_drive_enabled.load(std::memory_order_relaxed)) {
                 const DriveCommand cmd = translate_command_string(cmd_buf);
                 apply_drive_command(cmd, speed);
@@ -148,23 +153,24 @@ void gatts_event_handler(esp_gatts_cb_event_t event, esp_gatt_if_t gatts_if,
                     switch (cmd) {
                     case DRIVE_FORWARD:
                         show_face(FACE_DRIVING);
-                        set_background_sound(SOUND_DRIVE_HUM);
-                        play_sound(SOUND_DRIVE_HUM);
+                        set_background_sound(SOUND_DRIVING);
+                        play_sound(SOUND_STARTUP);
                         break;
                     case DRIVE_REVERSE:
                         show_face(FACE_DRIVING);
-                        set_background_sound(SOUND_REVERSE_BEEP);
-                        play_sound(SOUND_REVERSE_BEEP);
+                        set_background_sound(SOUND_REVERSE);
+                        play_sound(SOUND_REVERSE);
                         break;
                     case DRIVE_TURN_LEFT:
                     case DRIVE_TURN_RIGHT:
                         show_face(FACE_DRIVING);
-                        set_background_sound(SOUND_TURN_TICK);
-                        play_sound(SOUND_TURN_TICK);
+                        set_background_sound(SOUND_DRIVING);
+                        play_sound(SOUND_DRIVING);
                         break;
                     case DRIVE_STOP:
                         show_face(FACE_HAPPY);
-                        stop_sound();
+                        clear_background_sound();
+                        play_sound(SOUND_SCREECH);
                         break;
                     }
                 }

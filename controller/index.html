@@ -1,0 +1,610 @@
+<title>Kai Car Controller</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<style>
+:root {
+  --ground: #1a1a1e;
+  --surface: #27272c;
+  --surface-raised: #32323a;
+  --border: #3a3a42;
+  --text: #e8e6e3;
+  --text-muted: #7a7a82;
+  --accent: #ff6b35;
+  --accent-dim: rgba(255, 107, 53, 0.15);
+  --success: #4ade80;
+  --success-dim: rgba(74, 222, 128, 0.15);
+  --danger: #ef4444;
+  --danger-dim: rgba(239, 68, 68, 0.15);
+  --btn-shadow: 0 4px 0 #111114;
+  --radius: 12px;
+  --mono: 'SF Mono', 'Cascadia Code', 'Fira Code', 'Consolas', monospace;
+  --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+}
+
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    --ground: #f0eeeb;
+    --surface: #ffffff;
+    --surface-raised: #f7f6f4;
+    --border: #ddd9d4;
+    --text: #1a1a1e;
+    --text-muted: #8a8780;
+    --accent: #e05a2a;
+    --accent-dim: rgba(224, 90, 42, 0.1);
+    --success: #16a34a;
+    --success-dim: rgba(22, 163, 74, 0.1);
+    --danger: #dc2626;
+    --danger-dim: rgba(220, 38, 38, 0.1);
+    --btn-shadow: 0 4px 0 #c8c4be;
+  }
+}
+
+:root[data-theme="dark"] {
+  --ground: #1a1a1e;
+  --surface: #27272c;
+  --surface-raised: #32323a;
+  --border: #3a3a42;
+  --text: #e8e6e3;
+  --text-muted: #7a7a82;
+  --accent: #ff6b35;
+  --accent-dim: rgba(255, 107, 53, 0.15);
+  --success: #4ade80;
+  --success-dim: rgba(74, 222, 128, 0.15);
+  --danger: #ef4444;
+  --danger-dim: rgba(239, 68, 68, 0.15);
+  --btn-shadow: 0 4px 0 #111114;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: var(--ground);
+  color: var(--text);
+  font-family: var(--sans);
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  -webkit-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+  overflow: hidden;
+  padding: env(safe-area-inset-top) 16px env(safe-area-inset-bottom);
+}
+
+/* ── Header ─────────────────────────────── */
+.header {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0 8px;
+}
+
+.logo {
+  font-family: var(--mono);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.logo span { color: var(--accent); }
+
+/* ── Status ─────────────────────────────── */
+.status-bar {
+  width: 100%;
+  max-width: 400px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 12px 16px;
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--mono);
+  font-size: 13px;
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--text-muted);
+  flex-shrink: 0;
+  transition: background 0.3s;
+}
+
+.status-dot.connected {
+  background: var(--success);
+  box-shadow: 0 0 8px var(--success);
+}
+
+.status-text {
+  flex: 1;
+  color: var(--text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.connect-btn {
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background: var(--accent);
+  color: #fff;
+  transition: opacity 0.15s;
+}
+
+.connect-btn:active { opacity: 0.8; }
+.connect-btn.connected {
+  background: var(--danger-dim);
+  color: var(--danger);
+}
+
+/* ── Command display ────────────────────── */
+.command-display {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  padding: 6px 0;
+}
+
+.command-label {
+  font-family: var(--mono);
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  transition: color 0.15s;
+}
+
+.command-label.active { color: var(--accent); }
+
+/* ── D-pad ──────────────────────────────── */
+.dpad-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+.dpad {
+  display: grid;
+  grid-template-columns: 80px 80px 80px;
+  grid-template-rows: 80px 80px 80px;
+  gap: 6px;
+}
+
+.dpad-btn {
+  border: none;
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: var(--btn-shadow);
+  transition: transform 0.08s, box-shadow 0.08s, background 0.1s;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.dpad-btn:active, .dpad-btn.pressed {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 #111114;
+  background: var(--accent-dim);
+}
+
+.dpad-btn.stop-btn {
+  background: var(--surface-raised);
+  border: 2px solid var(--border);
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+}
+
+.dpad-btn.stop-btn:active, .dpad-btn.stop-btn.pressed {
+  background: var(--danger-dim);
+  border-color: var(--danger);
+  color: var(--danger);
+}
+
+.dpad-spacer { visibility: hidden; }
+
+/* Arrow SVGs */
+.dpad-btn svg {
+  width: 28px;
+  height: 28px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* ── Bottom controls ────────────────────── */
+.bottom-controls {
+  width: 100%;
+  max-width: 400px;
+  padding: 0 0 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.speed-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 12px 16px;
+}
+
+.speed-label {
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+.speed-slider {
+  flex: 1;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 6px;
+  border-radius: 3px;
+  background: var(--border);
+  outline: none;
+}
+
+.speed-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--accent);
+  cursor: pointer;
+  border: none;
+}
+
+.speed-value {
+  font-family: var(--mono);
+  font-size: 15px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: var(--accent);
+  min-width: 36px;
+  text-align: right;
+}
+
+.honk-btn {
+  width: 100%;
+  padding: 14px;
+  border-radius: var(--radius);
+  border: 2px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-family: var(--mono);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: var(--btn-shadow);
+  transition: transform 0.08s, box-shadow 0.08s, background 0.1s;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.honk-btn:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 #111114;
+  background: var(--accent-dim);
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* ── No BLE banner ──────────────────────── */
+.no-ble {
+  position: fixed;
+  inset: 0;
+  background: var(--ground);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  text-align: center;
+  z-index: 100;
+}
+
+.no-ble h2 {
+  font-family: var(--mono);
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: var(--danger);
+}
+
+.no-ble p {
+  font-size: 14px;
+  color: var(--text-muted);
+  line-height: 1.6;
+  max-width: 320px;
+}
+</style>
+
+<div class="header">
+  <div class="logo"><span>KAI</span> CAR</div>
+</div>
+
+<div class="status-bar">
+  <div class="status-dot" id="statusDot"></div>
+  <div class="status-text" id="statusText">Disconnected</div>
+  <button class="connect-btn" id="connectBtn" onclick="toggleConnection()">Connect</button>
+</div>
+
+<div class="command-display">
+  <div class="command-label" id="commandLabel">IDLE</div>
+</div>
+
+<div class="dpad-container">
+  <div class="dpad">
+    <div class="dpad-spacer"></div>
+    <button class="dpad-btn" id="btnUp" data-cmd="forward">
+      <svg viewBox="0 0 24 24"><polyline points="12 5 12 19"/><polyline points="5 12 12 5 19 12"/></svg>
+    </button>
+    <div class="dpad-spacer"></div>
+
+    <button class="dpad-btn" id="btnLeft" data-cmd="left">
+      <svg viewBox="0 0 24 24"><polyline points="19 12 5 12"/><polyline points="12 5 5 12 12 19"/></svg>
+    </button>
+    <button class="dpad-btn stop-btn" id="btnStop" data-cmd="stop">STOP</button>
+    <button class="dpad-btn" id="btnRight" data-cmd="right">
+      <svg viewBox="0 0 24 24"><polyline points="5 12 19 12"/><polyline points="12 5 19 12 12 19"/></svg>
+    </button>
+
+    <div class="dpad-spacer"></div>
+    <button class="dpad-btn" id="btnDown" data-cmd="reverse">
+      <svg viewBox="0 0 24 24"><polyline points="12 19 12 5"/><polyline points="5 12 12 19 19 12"/></svg>
+    </button>
+    <div class="dpad-spacer"></div>
+  </div>
+</div>
+
+<div class="bottom-controls">
+  <div class="speed-row">
+    <span class="speed-label">Speed</span>
+    <input type="range" class="speed-slider" id="speedSlider" min="50" max="100" value="80">
+    <span class="speed-value" id="speedValue">80%</span>
+  </div>
+  <button class="honk-btn" id="honkBtn">HONK</button>
+</div>
+
+<script>
+const SERVICE_UUID = '000000ff-0000-1000-8000-00805f9b34fb';
+const CHAR_UUID    = '0000ff01-0000-1000-8000-00805f9b34fb';
+const SEND_INTERVAL = 200;
+
+let device = null;
+let characteristic = null;
+let connected = false;
+let currentCmd = 'stop';
+let sendTimer = null;
+
+const $ = id => document.getElementById(id);
+const statusDot  = $('statusDot');
+const statusText = $('statusText');
+const connectBtn = $('connectBtn');
+const commandLabel = $('commandLabel');
+const speedSlider  = $('speedSlider');
+const speedValue   = $('speedValue');
+
+// ── BLE ────────────────────────────────────
+
+if (!navigator.bluetooth) {
+  const overlay = document.createElement('div');
+  overlay.className = 'no-ble';
+  overlay.innerHTML = '<h2>Web Bluetooth Unavailable</h2><p>Open this page in Chrome or Edge on Android, macOS, or Windows. iOS Safari does not support Web Bluetooth — use the Bluefy or WebBLE app instead.</p>';
+  document.body.appendChild(overlay);
+}
+
+async function toggleConnection() {
+  if (connected) {
+    disconnect();
+  } else {
+    await connect();
+  }
+}
+
+async function connect() {
+  try {
+    setStatus('Scanning...', false);
+    device = await navigator.bluetooth.requestDevice({
+      filters: [{ name: 'KaiCar' }],
+      optionalServices: [SERVICE_UUID]
+    });
+
+    device.addEventListener('gattserverdisconnected', onDisconnected);
+
+    setStatus('Connecting...', false);
+    const server = await device.gatt.connect();
+    const service = await server.getPrimaryService(SERVICE_UUID);
+    characteristic = await service.getCharacteristic(CHAR_UUID);
+
+    connected = true;
+    setStatus('Connected', true);
+    startSending();
+  } catch (e) {
+    setStatus(e.message.length > 30 ? e.message.slice(0, 30) + '...' : e.message, false);
+    connected = false;
+    characteristic = null;
+  }
+}
+
+function disconnect() {
+  stopSending();
+  if (device && device.gatt.connected) {
+    sendCommand('stop', 0);
+    device.gatt.disconnect();
+  }
+  connected = false;
+  characteristic = null;
+  setStatus('Disconnected', false);
+}
+
+function onDisconnected() {
+  connected = false;
+  characteristic = null;
+  stopSending();
+  setStatus('Disconnected', false);
+  currentCmd = 'stop';
+  updateCommandDisplay();
+}
+
+function setStatus(text, isConnected) {
+  statusText.textContent = text;
+  statusDot.classList.toggle('connected', isConnected);
+  connectBtn.textContent = isConnected ? 'Disconnect' : 'Connect';
+  connectBtn.classList.toggle('connected', isConnected);
+}
+
+// ── Command sending ────────────────────────
+
+async function sendCommand(cmd, speed) {
+  if (!characteristic || !connected) return;
+  try {
+    const payload = new TextEncoder().encode(`${cmd}:${speed}`);
+    await characteristic.writeValueWithoutResponse(payload);
+  } catch (e) {
+    // write failed, connection may be lost
+  }
+}
+
+function startSending() {
+  stopSending();
+  sendTimer = setInterval(() => {
+    const speed = currentCmd === 'stop' ? 0 : parseInt(speedSlider.value);
+    sendCommand(currentCmd, speed);
+  }, SEND_INTERVAL);
+}
+
+function stopSending() {
+  if (sendTimer) {
+    clearInterval(sendTimer);
+    sendTimer = null;
+  }
+}
+
+function setCommand(cmd) {
+  currentCmd = cmd;
+  updateCommandDisplay();
+}
+
+function updateCommandDisplay() {
+  const labels = { forward: 'FORWARD', reverse: 'REVERSE', left: 'LEFT', right: 'RIGHT', stop: 'IDLE' };
+  commandLabel.textContent = labels[currentCmd] || currentCmd.toUpperCase();
+  commandLabel.classList.toggle('active', currentCmd !== 'stop');
+
+  document.querySelectorAll('.dpad-btn').forEach(btn => {
+    btn.classList.toggle('pressed', btn.dataset.cmd === currentCmd && currentCmd !== 'stop');
+  });
+}
+
+// ── Touch / pointer handling ───────────────
+
+document.querySelectorAll('.dpad-btn[data-cmd]').forEach(btn => {
+  const cmd = btn.dataset.cmd;
+
+  function down(e) {
+    e.preventDefault();
+    if (cmd === 'stop') {
+      setCommand('stop');
+    } else {
+      setCommand(cmd);
+    }
+  }
+
+  function up(e) {
+    e.preventDefault();
+    if (cmd !== 'stop' && currentCmd === cmd) {
+      setCommand('stop');
+    }
+  }
+
+  btn.addEventListener('touchstart', down, { passive: false });
+  btn.addEventListener('touchend', up, { passive: false });
+  btn.addEventListener('touchcancel', up, { passive: false });
+  btn.addEventListener('mousedown', down);
+  btn.addEventListener('mouseup', up);
+  btn.addEventListener('mouseleave', up);
+});
+
+// Honk
+const honkBtn = $('honkBtn');
+honkBtn.addEventListener('touchstart', e => { e.preventDefault(); sendCommand('honk', 0); }, { passive: false });
+honkBtn.addEventListener('mousedown', () => sendCommand('honk', 0));
+
+// Speed slider
+speedSlider.addEventListener('input', () => {
+  speedValue.textContent = speedSlider.value + '%';
+});
+
+// ── Keyboard (desktop) ────────────────────
+
+const keyMap = {
+  ArrowUp: 'forward', w: 'forward', W: 'forward',
+  ArrowDown: 'reverse', x: 'reverse', X: 'reverse',
+  ArrowLeft: 'left', a: 'left', A: 'left',
+  ArrowRight: 'right', d: 'right', D: 'right',
+  s: 'stop', S: 'stop', ' ': 'stop',
+};
+
+const heldKeys = new Set();
+
+document.addEventListener('keydown', e => {
+  if (e.repeat) return;
+  const cmd = keyMap[e.key];
+  if (!cmd) {
+    if (e.key === 'h' || e.key === 'H') sendCommand('honk', 0);
+    return;
+  }
+  e.preventDefault();
+  if (cmd === 'stop') {
+    setCommand('stop');
+  } else {
+    heldKeys.add(e.key);
+    setCommand(cmd);
+  }
+});
+
+document.addEventListener('keyup', e => {
+  const cmd = keyMap[e.key];
+  if (!cmd || cmd === 'stop') return;
+  heldKeys.delete(e.key);
+  if (heldKeys.size === 0 && currentCmd === cmd) {
+    setCommand('stop');
+  }
+});
+</script>

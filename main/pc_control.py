@@ -215,6 +215,8 @@ def main(stdscr):
                 ctl.set_command(KEY_MAP[key])
             elif key in (ord("h"), ord("H")):
                 ctl.honk()
+            elif key >= ord("0") and key <= ord("3"):
+                ctl.set_command(f"pin{chr(key)}")
             elif key == ord("]") or key == ord("="):
                 ctl.adjust_speed(5)
             elif key == ord("[") or key == ord("-"):
@@ -278,6 +280,8 @@ def main(stdscr):
             row += 2
 
             put(row, 2, "WASD=drive [/]=speed H=honk Q=quit")
+            row += 1
+            put(row, 2, "0-3=test individual motor pins")
 
             stdscr.refresh()
     finally:

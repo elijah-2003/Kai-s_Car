@@ -18,4 +18,9 @@ idf_component_register(
         nvs_flash
         esp_event
         driver
+        spiffs
+        esp_driver_dac
+        esp_adc
 )
+
+spiffs_create_partition_image(audio ../audio_data FLASH_IN_PROJECT)

@@ -15,13 +15,15 @@
 #include <cmath>
 #include <cstdio>
 
+static void set_channel_duty(ledc_channel_t channel, uint32_t duty);
+
 namespace {
 
 // Physical pin connections to DRV8833
 constexpr gpio_num_t kLeftPinA  = GPIO_NUM_27; // DRV8833 IN1
 constexpr gpio_num_t kLeftPinB  = GPIO_NUM_26; // DRV8833 IN2
-constexpr gpio_num_t kRightPinA = GPIO_NUM_25; // DRV8833 IN3
-constexpr gpio_num_t kRightPinB = GPIO_NUM_33; // DRV8833 IN4
+constexpr gpio_num_t kRightPinA = GPIO_NUM_5;  // DRV8833 IN3
+constexpr gpio_num_t kRightPinB = GPIO_NUM_18; // DRV8833 IN4
 
 // Direction mapping — toggle via idf.py menuconfig → "Kai Car Motor Configuration"
 #ifdef CONFIG_KAICAR_LEFT_MOTOR_REVERSED
@@ -42,10 +44,13 @@ constexpr gpio_num_t kRightReversePin = kRightPinB;
 
 constexpr int kPwmResolutionBits = 10;
 constexpr int kPwmFrequencyHz = 5000;
-constexpr int kMaxDuty = (1 << kPwmResolutionBits) - 1;
+constexpr int kFullDuty = (1 << kPwmResolutionBits) - 1;
+constexpr int kMaxDuty = (kFullDuty * 85) / 100;
 constexpr int kAccelSteps = 20;
 constexpr int kAccelDelayMs = 15;
-constexpr int kMinDutyPercent = 65; // 4×AA ≈ 5V, motor needs 3V min, covers sag to ~4.2V
+constexpr int kMinDutyPercent = 85;
+constexpr int kLeftTrimPercent = 100;
+constexpr int kRightTrimPercent = 85;  // right motor runs faster, trim it down
 
 constexpr uint32_t kDeadmanTimeoutMs = 800;
 constexpr uint32_t kDeadmanCheckMs = 100;
@@ -107,11 +112,15 @@ void deadman_task(void* /*arg*/)
     }
 }
 
-void set_channel_duty(ledc_channel_t channel, uint32_t duty)
+} // namespace
+
+static void set_channel_duty(ledc_channel_t channel, uint32_t duty)
 {
     ESP_ERROR_CHECK(ledc_set_duty(LEDC_HIGH_SPEED_MODE, channel, duty));
     ESP_ERROR_CHECK(ledc_update_duty(LEDC_HIGH_SPEED_MODE, channel));
 }
+
+namespace {
 
 void configure_motor_channel(ledc_channel_t channel, gpio_num_t pin)
 {
@@ -241,23 +250,37 @@ void apply_drive_command(DriveCommand command, unsigned int speed_percent)
     const char* command_name = "STOP";
     const unsigned int clamped_speed = std::min<unsigned int>(100, speed_percent);
     const uint32_t target_duty = (clamped_speed * kMaxDuty) / 100;
+    const uint32_t left_duty = (target_duty * kLeftTrimPercent) / 100;
+    const uint32_t right_duty = (target_duty * kRightTrimPercent) / 100;
 
     switch (command) {
     case DRIVE_FORWARD:
         command_name = "FORWARD";
-        ramp_motor_state(true, false, true, false, target_duty);
+        set_channel_duty(LEDC_CHANNEL_0, left_duty);
+        set_channel_duty(LEDC_CHANNEL_1, 0);
+        set_channel_duty(LEDC_CHANNEL_2, right_duty);
+        set_channel_duty(LEDC_CHANNEL_3, 0);
         break;
     case DRIVE_REVERSE:
         command_name = "REVERSE";
-        ramp_motor_state(false, true, false, true, target_duty);
+        set_channel_duty(LEDC_CHANNEL_0, 0);
+        set_channel_duty(LEDC_CHANNEL_1, left_duty);
+        set_channel_duty(LEDC_CHANNEL_2, 0);
+        set_channel_duty(LEDC_CHANNEL_3, right_duty);
         break;
     case DRIVE_TURN_LEFT:
         command_name = "TURN_LEFT";
-        ramp_motor_state(false, false, true, false, kMaxDuty);
+        set_channel_duty(LEDC_CHANNEL_0, 0);
+        set_channel_duty(LEDC_CHANNEL_1, left_duty);
+        set_channel_duty(LEDC_CHANNEL_2, right_duty);
+        set_channel_duty(LEDC_CHANNEL_3, 0);
         break;
     case DRIVE_TURN_RIGHT:
         command_name = "TURN_RIGHT";
-        ramp_motor_state(true, false, false, false, kMaxDuty);
+        set_channel_duty(LEDC_CHANNEL_0, left_duty);
+        set_channel_duty(LEDC_CHANNEL_1, 0);
+        set_channel_duty(LEDC_CHANNEL_2, 0);
+        set_channel_duty(LEDC_CHANNEL_3, right_duty);
         break;
     case DRIVE_STOP:
     default:
